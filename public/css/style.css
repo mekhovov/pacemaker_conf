@@ -29,6 +29,11 @@
 	font-size:16px;
 }
 
+.navbar .nav > li > a.cta:hover {
+	color: white;
+	font-size:14px;
+}
+
 .wrapper {
 	padding-top: 2px;
 
