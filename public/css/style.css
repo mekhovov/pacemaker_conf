@@ -1,0 +1,298 @@
+
+/****************  top menu  **************/
+.navbar-inner {
+	height:45px;
+	background: url('/images/linen_bg_tile.jpg') repeat;
+	-webkit-box-shadow: none;
+  	-moz-box-shadow: none;
+  	box-shadow: none;
+	-moz-box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.6);
+	-webkit-box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.6);
+	-o-box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.6);
+	box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.6);
+
+
+
+}
+
+.navbar .nav > li > a {
+	color: #ddd;
+	font-size:14px;
+}
+
+.trillsy.navbar .container > ul > li > a {
+	padding: 8px 15px 21px 15px;
+}
+
+.navbar .nav > li > a:hover {
+	color: white;
+	font-size:16px;
+}
+
+.wrapper {
+	padding-top: 2px;
+
+	-moz-box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.7);
+	-webkit-box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.7);
+	-o-box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.7);
+	box-shadow: inset 0 13px 13px -13px rgba(0,0,0,0.9);
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+	color: white;
+	text-decoration: none;
+	background: none;
+	font-size:16px;
+}
+
+
+/* community beta feature
+------------------------------------------------------------------------------*/
+#about, #speakers, #program, #details {
+	width:100%;
+	overflow:auto;
+	background:#ffffff;
+	padding:0;
+}
+#community_beta .feature {
+	background:#999999 url(/images/beta_blueprint.jpg) -46px -108px no-repeat;	
+}
+#about .promo_text, #speakers .promo_text, #program .promo_text, #details .promo_text {
+	padding:20px;
+}
+#about .relative, #speakers .relative, #program .relative, #details .relative {
+	position:relative;
+	height:448px;
+}
+
+
+
+
+/****************  about  **************/
+#about .about {
+	position:relative;
+	height:180px;
+	background:#999999 url(/images/beta_blueprint.jpg) -46px -108px no-repeat;
+}
+
+#about .about h1 {
+	color: #eee;
+	padding: 30px 47px;
+	float:right;
+}
+
+#about .about .logo_softserve {
+	float: center;
+	margin-top: 75px;
+	margin-left: 310px;
+}
+
+/****************  speakers  **************/
+#speakers .speakers {
+	position:relative;
+	height:90px;
+	background: none;
+}
+#speakers .speakers_top {
+	background: none;
+}
+#speakers .speakers h1 {
+	color: #999;
+	padding: 30px 47px;
+	float:right;
+}
+
+#speakers .promo_text .photo {
+	background: white;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.9)), color-stop(100%, rgba(250, 250, 250, 0.9)));
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9),rgba(250, 250, 250, 0.9));
+	background: -moz-linear-gradient(rgba(255, 255, 255, 0.9),rgba(250, 250, 250, 0.9));
+	background: -o-linear-gradient(rgba(255, 255, 255, 0.9),rgba(250, 250, 250, 0.9));
+	background: -ms-linear-gradient(rgba(255, 255, 255, 0.9),rgba(250, 250, 250, 0.9));
+	background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(250, 250, 250, 0.9));
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+	-o-box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+	box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+	display: -moz-inline-box;
+	-moz-box-orient: vertical;
+	display: inline-block;
+	vertical-align: middle;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #B7BBC0;
+	padding: 5px;
+
+}
+
+/****************  program  **************/
+#program .program {
+	position:relative;
+	height:90px;
+	background: none;
+}
+#program .program_top {
+	background: none;
+}
+#program .program h1 {
+	color: #999;
+	padding: 30px 47px;
+	float:right;
+}
+
+#program .lunch {
+	background-color: #d9fbd9;
+}
+
+/****************  details  **************/
+#details .details {
+	position:relative;
+	height:90px;
+	background: none;
+}
+#details .details_top {
+	background: none;
+}
+#details .details h1 {
+	color: #999;
+	padding: 30px 47px;
+	float:right;
+}
+
+
+#hint {
+	position: relative;
+	width: 700px;
+	height: 71px;
+	margin: -47px auto;
+	padding: 14px 6px 9px;
+	background: url(../images/bg-psst.png) no-repeat 0 0;
+	/*z-index: 2000;*/
+	overflow: hidden;
+}
+#hint p {
+	display: table-cell;
+	width: 520px;
+	height: 71px;
+	margin: 0;
+	padding: 0 90px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: .9em;
+}
+
+.photo {
+ 	max-height: 150px;
+}
+
+.map_calendar {
+ 	text-align: center;
+}
+
+
+
+/************ register button ************/
+ul.pull-right li {
+	margin-top: 5px;
+	padding-top: 2px;
+}
+.trillsy.navbar .container > ul.pull-right > li > a { 
+	padding-top: 2px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.35);
+    font: normal 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 11px;
+    text-decoration: none;
+    line-height: 50px;
+  white-space: nowrap;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=120, Color='#333333')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=120, Color='#333333');
+  -moz-user-select: none;
+  -webkit-user-select:none;
+  -khtml-user-select: none;
+  user-select: none;
+  overflow: visible;
+  outline: none;
+}
+.cta:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.cta:hover {
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+.cta:active {
+    -moz-box-shadow: 0 0 0;
+    -webkit-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+}
+.cta-red {
+  -webkit-transition: border-color .218s;
+  -moz-transition: border .218s;
+  -o-transition: border-color .218s;
+  transition: border-color .218s;
+}
+.cta-red {
+    border: solid 1px #b8473d;
+    background: #f36c4d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f36c4d), to(#ef3e29));
+    background: -moz-linear-gradient(top, #f36c4d, #ef3e29);
+    background: -ms-linear-gradient(top, #f36c4d, #ef3e29);
+    background: -o-linear-gradient(top, #f36c4d, #ef3e29);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#f36c4d', EndColorStr='#ef3e29');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f36c4d', EndColorStr='#ef3e29')";
+}
+.cta-red:before {
+    border: solid 1px #f67b5f;
+    border-color: rgba(255, 255, 255, 0.35);
+}
+.cta-red:hover {
+    color: #fff;
+    border: solid 1px #90332b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fb856a), to(#f7523f));
+    background: -moz-linear-gradient(top, #fb856a, #f7523f);
+    background: -ms-linear-gradient(top, #fb856a, #f7523f);
+    background: -o-linear-gradient(top, #fb856a, #f7523f);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#fb856a', EndColorStr='#f7523f');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fb856a', EndColorStr='#f7523f')";
+}
+.cta-red:active {
+    color: #fff;
+    border: solid 1px #90332b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ef3e29), to(#f36c4d));
+    background: -moz-linear-gradient(top, #ef3e29, #f36c4d);
+    background: -ms-linear-gradient(top, #ef3e29, #f36c4d);
+    background: -o-linear-gradient(top, #ef3e29, #f36c4d);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#ef3e29', EndColorStr='#f36c4d');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ef3e29', EndColorStr='#f36c4d')";
+}
