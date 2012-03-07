@@ -149,6 +149,10 @@
 	float:right;
 }
 
+#program .coffee-break {
+	background-color: #eafdea;
+}
+
 #program .lunch {
 	background-color: #d9fbd9;
 }
