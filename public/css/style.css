@@ -21,7 +21,7 @@
 }
 
 .trillsy.navbar .container > ul > li > a {
-	padding: 8px 15px 21px 15px;
+	padding: 8px 15px 21px 40px;
 }
 
 .navbar .nav > li > a:hover {
@@ -71,12 +71,20 @@
 }
 
 
+/****************  logo  **************/
+.trillsy.navbar h2 a {
+	display:inline-block;
+	width:220px;
+	height:46px;
+	background:transparent url(/images/logo_softserve.png) center center no-repeat;
+	text-indent:-9000px;
+}
 
 
 /****************  about  **************/
 #about .about {
 	position:relative;
-	height:180px;
+	height:190px;
 	background:#999999 url(/images/beta_blueprint.jpg) -46px -108px no-repeat;
 }
 
@@ -88,8 +96,22 @@
 
 #about .about .logo_softserve {
 	float: center;
-	margin-top: 75px;
-	margin-left: 310px;
+	margin-top: -5px;
+	margin-left: 30px;
+}
+
+#about .about .logo_conf {
+	float: center;
+	margin-top: -5px;
+	margin-left: 30px;
+	max-height: 60px;
+}
+
+#about .about .logo_web_conf {
+	float: center;
+	margin-top: 0;
+	margin-left: 40px;
+	max-height: 100px;
 }
 
 /****************  speakers  **************/
@@ -191,11 +213,16 @@
 	padding: 0 90px;
 	vertical-align: middle;
 	text-align: center;
-	font-size: .9em;
+	font-size: 13px;
+	font-family: "Ayita Pro SemiBold";
+}
+
+#hint p img {
+	margin-bottom: -15px;
 }
 
 .photo {
- 	max-height: 150px;
+ 	max-height: 190px;
 }
 
 .map_calendar {
@@ -203,6 +230,99 @@
 }
 
 
+/************************* slider *****************/
+
+#slider, #slider h3, #slider h2 {
+	color: white;
+}
+
+#slider h2 {
+	font-family: 'Bad Script';
+	font-size: 28px;
+}
+
+.topic_logo {
+	max-height: 100px;
+}
+
+.bx-prev {
+	position: absolute;
+	top: 80px;
+	left: 5px;
+	width: 31px;
+	height: 31px;
+	text-indent: -999999px;
+	background: url(../images/icon_arrow_left.png) no-repeat 0 -31px;
+}
+.bx-next {
+	position: absolute;
+	top: 80px;
+	right: 10px;
+	width: 31px;
+	height: 31px;
+	text-indent: -999999px;
+	background: url(../images/icon_arrow_right.png) no-repeat 0 -31px;
+}
+
+/* Typography
+---------------------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Ayita Pro SemiBold";
+  src: url('../font/AyitaPro-SemiBold.eot');
+}
+
+@font-face {
+  font-family: "Ayita Pro SemiBold";
+  src: url('../font/AyitaPro-SemiBold.ttf') format("truetype");
+}  
+
+@font-face {
+  font-family: "museo_slab";
+  src: url('../font/museo_slab_300-webfont.eot');
+}
+
+@font-face {
+  font-family: "museo_slab";
+  src: url('../font/museo_slab_300-webfont.ttf') format("truetype");
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Ayita Pro SemiBold";
+	line-height: 1.2em;
+}
+
+.speakers h3 {
+	font-family: 'Bad Script';
+	font-size: 20px;
+}
+
+.speakers .label {
+	margin: 0 15px;
+	padding-left: 7px;
+	padding-right: 8px;
+}
+
+.program-list strong {
+	font-family: "Ayita Pro SemiBold";
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.program-list .time {
+	font-family: "Ayita Pro SemiBold";
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/************ limit ************/
+
+.limit img {
+	max-height: 40px;
+	margin-right: -14px;
+}
+.limit h4 {
+	
+}
 
 /************ register button ************/
 ul.pull-right li {
@@ -211,6 +331,7 @@ ul.pull-right li {
 }
 .trillsy.navbar .container > ul.pull-right > li > a { 
 	padding-top: 2px;
+	padding: 0 15px 21px 15px;
 }
 
 .cta {
