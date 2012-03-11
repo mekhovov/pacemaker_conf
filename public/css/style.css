@@ -70,6 +70,10 @@
 	height:448px;
 }
 
+#content.container {
+	margin-top: 45px;
+}
+
 
 /****************  logo  **************/
 .trillsy.navbar h2 a {
