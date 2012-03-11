@@ -21,7 +21,7 @@
 }
 
 .trillsy.navbar .container > ul > li > a {
-	padding: 8px 15px 21px 40px;
+	padding: 8px 15px 21px 20px;
 }
 
 .navbar .nav > li > a:hover {
@@ -85,7 +85,8 @@
 #about .about {
 	position:relative;
 	height:190px;
-	background:#999999 url(/images/beta_blueprint.jpg) -46px -108px no-repeat;
+	/*background:#999999 url(/images/bg.jpg) -46px -108px no-repeat;*/
+	background:#999999 url(/images/bg.png) no-repeat;
 }
 
 #about .about h1 {
@@ -103,10 +104,18 @@
 #about .about .logo_conf {
 	float: center;
 	margin-top: -5px;
-	margin-left: 30px;
-	max-height: 60px;
+	margin-left: 10px;
+	max-height: 70px;
 }
 
+
+.logo_conf {
+	float: center;
+	margin-top: -8px;
+	margin-left: 10px;
+	margin-right: 10px;
+	max-height: 45px;
+}
 #about .about .logo_web_conf {
 	float: center;
 	margin-top: 0;
@@ -233,19 +242,43 @@
 /************************* slider *****************/
 
 #slider, #slider h3, #slider h2 {
-	color: white;
+	text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-#slider h2 {
+#slider h3 {
+	color: #222;
 	font-family: 'Bad Script';
-	font-size: 28px;
+	font-size: 38px;
+	margin-top: 40px;
+	margin-bottom: 45px;
+	
+}
+#slider h2 {
+	font-size: 22px;
+	color: #343;
+}
+#slider .first {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+#slider .photo {
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);	
+}
+
+#slider .last {
+	margin-right: 0;
 }
 
 .topic_logo {
-	max-height: 100px;
+	margin-top: 20px;
+	max-height: 160px;
 }
 
 .bx-prev {
+	display: none;
 	position: absolute;
 	top: 80px;
 	left: 5px;
@@ -255,6 +288,7 @@
 	background: url(../images/icon_arrow_left.png) no-repeat 0 -31px;
 }
 .bx-next {
+	display: none;
 	position: absolute;
 	top: 80px;
 	right: 10px;
@@ -262,6 +296,10 @@
 	height: 31px;
 	text-indent: -999999px;
 	background: url(../images/icon_arrow_right.png) no-repeat 0 -31px;
+}
+
+.about:hover .bx-next, .about:hover .bx-prev {
+	display: inline;
 }
 
 /* Typography
