@@ -90,7 +90,7 @@
 	position:relative;
 	height:190px;
 	/*background:#999999 url(/images/bg.jpg) -46px -108px no-repeat;*/
-	background:#999999 url(/images/bg.png) no-repeat;
+	background:#999999 url(/images/bg_new.png) no-repeat;
 }
 
 #about .about h1 {
@@ -250,7 +250,7 @@
 }
 
 #slider h3 {
-	color: #222;
+	color: white;
 	font-family: 'Bad Script';
 	font-size: 34px;
 	margin-top: 40px;
@@ -259,7 +259,7 @@
 }
 #slider h2 {
 	font-size: 20px;
-	color: #343;
+	color: #888;
 }
 #slider .first {
 	margin-left: 0;
