@@ -1,4 +1,32 @@
 
+/* images overrides
+------------------------------------------------------------------------------*/
+body {
+	background:#dcdcdc url('/images/linen_lite.png') repeat fixed;
+}
+
+.trillsy.navbar h2 a {
+	display:inline-block;
+	width:290px;
+	height:71px;
+	background:transparent url('/images/logo_conf.png') center center no-repeat;
+	text-indent:-9000px;
+}
+
+#community_beta .feature {
+	background:#999999 url('/images/beta_blueprint.jpg') -46px -108px no-repeat;	
+}
+
+body#error {
+	background:#efefef url('/images/linen_lite.png') center top repeat;
+}
+
+.adipoli-wrapper > div, .adipoli-before > div, .adipoli-after > div {
+    padding: 0 ! important;
+    border: none ! important;
+}
+
+
 /****************  top menu  **************/
 .navbar-inner {
 	height:45px;
@@ -80,7 +108,7 @@
 	display:inline-block;
 	width:220px;
 	height:46px;
-	background:transparent url(/images/logo_softserve.png) center center no-repeat;
+	background:transparent url('/images/logo_softserve.png') center center no-repeat;
 	text-indent:-9000px;
 }
 
@@ -90,7 +118,7 @@
 	position:relative;
 	height:190px;
 	/*background:#999999 url(/images/bg.jpg) -46px -108px no-repeat;*/
-	background:#999999 url(/images/bg_new.png) no-repeat;
+	background:#999999 url('/images/bg_new.png') no-repeat;
 }
 
 #about .about h1 {
@@ -214,7 +242,7 @@
 	height: 71px;
 	margin: -47px auto;
 	padding: 14px 6px 9px;
-	background: url(../images/bg-psst.png) no-repeat 0 0;
+	background: url('/images/bg-psst.png') no-repeat 0 0;
 	/*z-index: 2000;*/
 	overflow: hidden;
 }
@@ -284,22 +312,22 @@
 .bx-prev {
 	display: none;
 	position: absolute;
-	top: 80px;
+	top: 70px;
 	left: 5px;
-	width: 31px;
-	height: 31px;
+	width: 28px;
+	height: 51px;
 	text-indent: -999999px;
-	background: url(../images/icon_arrow_left.png) no-repeat 0 -31px;
+	background: url('/images/prev-next.png') 0 -123px no-repeat;
 }
 .bx-next {
 	display: none;
 	position: absolute;
-	top: 80px;
-	right: 10px;
-	width: 31px;
-	height: 31px;
+	top: 70px;
+	right: 20px;
+	width: 28px;
+	height: 51px;
 	text-indent: -999999px;
-	background: url(../images/icon_arrow_right.png) no-repeat 0 -31px;
+	background: url('/images/prev-next.png') -56px -123px no-repeat;
 }
 
 .about:hover .bx-next, .about:hover .bx-prev {

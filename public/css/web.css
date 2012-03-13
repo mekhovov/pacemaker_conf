@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, legend, .btn {
 	display:inline-block;
 	width:290px;
 	height:71px;
-	background:transparent url(/images/logo_conf.png) center center no-repeat;
+	background:transparent url('/images/logo_conf.png') center center no-repeat;
 	text-indent:-9000px;
 }
 .trillsy.navbar .container > ul > li > a {

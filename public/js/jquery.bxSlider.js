@@ -1171,7 +1171,7 @@
 		 * Returns the width of the wrapper
 		 */		
 		function getWrapperWidth(){
-			var wrapperWidth = $firstChild.outerWidth() * options.displaySlideQty -5;
+			var wrapperWidth = $firstChild.outerWidth() * options.displaySlideQty - 20;
 			return wrapperWidth;
 		}
 		
