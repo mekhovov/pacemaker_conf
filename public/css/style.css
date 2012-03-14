@@ -117,8 +117,7 @@ body#error {
 #about .about {
 	position:relative;
 	height:190px;
-	/*background:#999999 url(/images/bg.jpg) -46px -108px no-repeat;*/
-	background:#999999 url('/images/bg_new.png') no-repeat;
+	background:#999999 url('/images/bg.png') no-repeat;
 }
 
 #about .about h1 {
