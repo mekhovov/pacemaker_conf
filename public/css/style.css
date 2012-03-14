@@ -136,7 +136,7 @@ body#error {
 #about .about .logo_conf {
 	float: center;
 	margin-top: -5px;
-	margin-left: 10px;
+	margin-left: 5px;
 	max-height: 70px;
 }
 
@@ -271,6 +271,9 @@ body#error {
 }
 
 
+.map_calendar .reg{
+ 	text-align: left;
+}
 /************************* slider *****************/
 
 #slider, #slider h3, #slider h2 {
@@ -323,7 +326,7 @@ body#error {
 	display: none;
 	position: absolute;
 	top: 70px;
-	right: 20px;
+	right: 1px;
 	width: 28px;
 	height: 51px;
 	text-indent: -999999px;
@@ -390,8 +393,9 @@ h1, h2, h3, h4, h5, h6 {
 	max-height: 40px;
 	margin-right: -14px;
 }
-.limit h4 {
-	
+
+.twitter {
+	max-height: 32px;
 }
 
 /************ register button ************/
