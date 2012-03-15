@@ -9,6 +9,6 @@ $(document).ready(function(){
   	$('.speakers .photo').adipoli({
     	'startEffect' : 'grayscale',
     	'hoverEffect' : 'normal'
-	});
+	  });
 
 });
