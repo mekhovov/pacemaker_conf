@@ -273,6 +273,28 @@ body#error {
  	text-align: left;
 }
 
+.map {
+ 	max-height: 50px;
+}
+
+
+.twits {
+	text-align: left;
+}
+
+.twits .post {
+	width: 215px;
+	margin-left:5px;
+}
+.twits .post p{
+	margin: 0;
+}
+
+.twits.alert {
+	padding: 5px;
+	margin-bottom: 8px;
+}
+
 /************************* slider *****************/
 
 #slider, #slider h3, #slider h2 {
