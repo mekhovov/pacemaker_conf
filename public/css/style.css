@@ -54,7 +54,7 @@ body#error {
 
 .navbar .nav > li > a:hover {
 	color: white;
-	font-size:16px;
+	font-weight: bold;
 }
 
 .navbar .nav > li > a.cta:hover {
@@ -219,6 +219,16 @@ body#error {
 	background-color: #d9fbd9;
 }
 
+#program .beer-break {
+	background-color: #eafdea;
+}
+
+#program .table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th {
+	background: none;
+}
+
+
+
 /****************  details  **************/
 #details .details {
 	position:relative;
@@ -286,8 +296,9 @@ body#error {
 	width: 215px;
 	margin-left:5px;
 }
-.twits .post p{
+.twits .post {
 	margin: 0;
+	background: url('/images/twitter_draw.png') bottom right no-repeat;
 }
 
 .twits.alert {
