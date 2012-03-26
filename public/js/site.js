@@ -76,12 +76,11 @@ function update_tweets () {
 
 $(document).ready(function(){
   // Slider
-  $('#slider').bxSlider({
-  	auto: true,
-  	pause: 8000,
-  	speed: 700,
-  	randomStart: true
-	});
+  $('#da-slider').cslider({
+    autoplay  : true,
+    interval  : 6000,
+    bgincrement : 0
+  });
 
   // Speakers photos
 	$('.speakers .photo').adipoli({

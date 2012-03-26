@@ -117,7 +117,7 @@ body#error {
 #about .about {
 	position:relative;
 	height:190px;
-	background:#999999 url('/images/bg.png') no-repeat;
+	background: #999999 url('/images/bg.png') no-repeat;
 }
 
 #about .about h1 {
@@ -252,7 +252,7 @@ body#error {
 	margin: -47px auto;
 	padding: 14px 6px 9px;
 	background: url('/images/bg-psst.png') no-repeat 0 0;
-	/*z-index: 2000;*/
+	z-index: 2000;
 	overflow: hidden;
 }
 #hint p {
@@ -272,7 +272,7 @@ body#error {
 }
 
 .photo {
- 	max-height: 190px;
+ 	max-height: 195px;
 }
 
 .map_calendar {
@@ -308,65 +308,66 @@ body#error {
 
 /************************* slider *****************/
 
-#slider, #slider h3, #slider h2 {
+.da-slider {
+	height: 190px;
+	margin: 0;
+	background: #999999 url('/images/bg.png') repeat 0% 0%;
+	border-top: none;
+	border-bottom: none;
+}
+
+.da-slide h2 {
+	color: white;
+	top: 20px;
+	font-family: 'Bad Script';
+	font-size: 34px;
 	text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-#slider h3 {
-	color: white;
-	font-family: 'Bad Script';
-	font-size: 34px;
-	margin-top: 40px;
-	margin-bottom: 35px;
 
-}
-#slider h2 {
+.da-slide p {
+	top: 70px;
 	font-size: 20px;
+	height: 100%;
 	color: #888;
-}
-#slider .first {
-	margin-left: 0;
-	margin-right: 20px;
+	text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-#slider .photo {
-	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);	
-}
 
-#slider .last {
-	margin-right: 0;
+.da-slide .da-img {
+	top: 0;
+	left:80%;
+	right:0;
+	margin: 0;
+	max-height: 200px;
+	height: 200px;
+	line-height: 0;
+	width: 0;
 }
 
 .topic_logo {
-	margin-top: 20px;
-	max-height: 160px;
+	top: 0;
+	position: relative;
 }
 
-.bx-prev {
-	display: none;
-	position: absolute;
-	top: 70px;
-	left: 5px;
-	width: 28px;
-	height: 51px;
-	text-indent: -999999px;
-	background: url('/images/prev-next.png') 0 -123px no-repeat;
-}
-.bx-next {
-	display: none;
-	position: absolute;
-	top: 70px;
-	right: 1px;
-	width: 28px;
-	height: 51px;
-	text-indent: -999999px;
-	background: url('/images/prev-next.png') -56px -123px no-repeat;
+.topic_logo img {
+	height: 120px;
 }
 
-.about:hover .bx-next, .about:hover .bx-prev {
-	display: inline;
+.topic_author {
+	margin-top: 75px;
+	margin-left: 485px;
+	
+}
+
+.da-dots span {
+	border-radius: 50%;
+	background: #222;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.3) inset, 1px 1px 1px rgba(255,255,255,0.3);
+}
+
+.da-arrows span {
+	background: #555;
 }
 
 /* Typography
