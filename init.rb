@@ -16,6 +16,10 @@ get '/' do
   File.read('public/index.html')
 end
 
+get '/twitter' do
+  File.read('public/twitter.html')
+end
+
 get '/t' do
   	posts = {}
 	Twitter.search("@pacemaker_conf", :result_type => "recent").map do |status|
