@@ -3,8 +3,8 @@ var totalPoints = 13; //Total # of Peaks & Valleys. Should be an odd number to a
 var ampMultiplier = .3; //Amplitude of the waves. Further multipled by totalPoints.
 var framerate = 30; //framerate in ms (1000/30 = 33.33 fps)
 var cWidth = 960; //Canvas Width will be changed to the width of the viewport
-var cHeight = 110; //Canvas Height
-var waterLevel = 200; //The y value of the surface of the water
+var cHeight = 140; //Canvas Height
+var waterLevel = 110; //The y value of the surface of the water
 var spreadAccelleration = 1.01; //Acceleration for point spread
 var spreadSpeed = 20; //Fixed speed for point spread
 
