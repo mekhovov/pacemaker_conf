@@ -4,31 +4,36 @@
     <meta charset="utf-8">	
     <meta name="description" content="Pacemaker - JS conference" />
     <meta name="keywords" content="pacemaker, conference, js, ruby, node.js, sencha touch, ext.js, html, css, web-ui" />
+    <meta name="author" content="Alex Mekhovov">
+     <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 	
 	<title>PACEMAKER | JS Conference</title>
 	
 	<!-- Styles -->
-	<link rel="stylesheet" href="/css/bootstrap.css" />
-	<link rel="stylesheet" href="/css/trillsy.css" />
-	<link rel="stylesheet" href="/css/adipoli.css" />
-	<link rel="stylesheet" href="/css/slider.css" />
-	<link rel="stylesheet" href="/css/web.css" />
-	<link rel="stylesheet" href="/css/font-awesome.css" />
+	<link rel="stylesheet" href="/css/bootstrap.css?v1.0" />
+	<link rel="stylesheet" href="/css/trillsy.css?v1.0" />
+	<link rel="stylesheet" href="/css/adipoli.css?v1.0" />
+	<link rel="stylesheet" href="/css/slider.css?v1.0" />
+	<link rel="stylesheet" href="/css/web.css?v1.0" />
+	<link rel="stylesheet" href="/css/font-awesome.css?v1.0" />
 	<link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" href="/css/style.css?v1.0" />
 
 	<!-- js files -->
-	<script src="/js/jquery.min.js"></script>
-	<script src="/js/bootstrap-scrollspy.js"></script>
-	<script src="/js/jquery.bxSlider.js" type="text/javascript"></script>
-	<script src="/js/jquery.adipoli.js"></script>
-	<script src="/js/jquery.timeago.js"></script>
-	<script type="text/javascript" src="/js/modernizr.custom.28468.js"></script>
-	<script type="text/javascript" src="/js/jquery.cslider.js"></script>
-	<script src="/js/visibility.js"></script>
-	<script src="/js/site.js"></script>
+	<script src="/js/jquery.min.js?v1.0"></script>
+	<script src="/js/bootstrap-scrollspy.js?v1.0"></script>
+	<script src="/js/bootstrap-tab.js?v1.0"></script>
+	<script src="/js/jquery.bxSlider.js?v1.0" type="text/javascript"></script>
+	<script src="/js/jquery.adipoli.js?v1.0"></script>
+	<script src="/js/jquery.timeago.js?v1.0"></script>
+	<script type="text/javascript" src="/js/modernizr.custom.28468.js?v1.0"></script>
+	<script type="text/javascript" src="/js/jquery.cslider.js?v1.0"></script>
+	<script src="/js/visibility.js?v1.0"></script>
+	<script src="/js/site.js?v1.0"></script>
 	<noscript>
-		<link rel="stylesheet" type="text/css" href="/css/nojs.css" />
+		<link rel="stylesheet" type="text/css" href="/css/nojs.css?v1.0" />
 	</noscript>
 
 </head>
@@ -70,10 +75,10 @@
 					<div class="da-img"><img class="photo" src="/images/photos/1-1.png" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
-					<h2><i class="icon-comments"></i> UI-interface: web, mobile, app </h2>
-					<p class="topic_author"><i class="icon-user"></i> Sergey Fomkin </p>
+					<h2><i class="icon-comments"></i> How to test JavaScript with Jasmine </h2>
+					<p class="topic_author"><i class="icon-user"></i> Vladimir Vorobyov </p>
 					<p><span class="topic_logo"><img src="/images/1-2-logo.png" alt="image01" /></span></p>
-					<div class="da-img"><img class="photo" src="/images/photos/1-2.jpg" alt="image01" /></div>
+					<div class="da-img"><img class="photo" src="/images/photos/1-2.png" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
 					<h2><i class="icon-comments"></i> HSPS project: Sencha touch in motion </h2>
@@ -173,22 +178,9 @@
 		      <p>
 					<i class="icon-comments"></i> At the end of every presentation we are going to have a QC-session where all the questions will be answered and all the details will be discussed. 
 			  </p>
-
-			  <!-- bonus -->
-			  <!-- <hr>
-			  
-			  <h3><i class="icon-star-empty"></i> Bonus</h3>
-		      <p>
-					<ul>
-						<li>to meet the like-minded people</li>
-						<li>share each other's experience</li>
-						<li>simply have a good time with a lot of use</li>
-					</ul>
-				</p> -->
 	    	</div>	
 
 			<div class="span4 map_calendar">
-				<!-- <div class="span4 map_calendar"> -->
 					<div class="row">
 						<!-- when -->
 						<div class="span2 1map">
@@ -210,26 +202,18 @@
 		      			  </a> 
 		  				</div>
 		  			</div>
-		    		<!-- register -->
-			        <div class="alert alert-info reg">
-			      		<!-- <h3><i class="icon-plus"></i> Register</h3> -->
-			      		<p>
-		        			<i class="icon-warning-sign"></i> <strong>Registration closed!</strong> 
-		        		</p>
-		        			<p>
-		        			We are processing application forms.
-		          		</p>
-		    		</div>
 
 		    		<!-- twitter -->
+		    		<br>
+		    		<h3><a href="twitter"><img class="map" src="/images/icon-twitter.png"> Twitter news</a></img></h3>
 			        <div class="alert  twits">
 			        	<div class="row">
 							<div class="span1 pht">
-		        				<img class="thumbnail"> </img>
+		        				<img class="thumbnail" src="/images/ico_wait.gif"> </img>
 		        				<p class="time_ago"></p>
 		        			</div>
 		        			<div class="span2 post">
-		        				<p>loading..</p>
+		        				<p><br>loading..</p>
 		        			</div>
 		        		</div>
 		    		</div>
@@ -248,103 +232,410 @@
 	</div>
 	<div class="promo_text speakers">
 		<div class="row">
-			<div class="span4" id="1-1">
+			<div class="span4" id="Yura.Bogdanov">
 		      <h3><i class="icon-user"></i> Yura Bogdanov</h3>
 	      	  <h4><i class="icon-comments"></i> NodeJS: Inside Tactoom.com <span class="label label-warning">node.js</span></h4>
-		      <p><img class="thumbnail photo" src="/images/photos/1-1.png"/></p>
-		      <p>
-		      	<i class="icon-info-sign"></i> Engineer and co-founder at Tactoom.com<br>
-		      	<i class="icon-map-marker"></i> Kyiv (External, tactoom.com) <br>
-		      	<i class="icon-star"></i> <a href="http://about.me/bogdanov" target="_blank"><i class="icon-external-link"></i> web</a>
-		      </p>
+		      <div class="tabbable tabs-below">
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="1-1-about">
+				      <p><img class="thumbnail photo" src="/images/photos/1-1.png"/></p>
+				      <p>
+				      	<i class="icon-info-sign"></i> Engineer and co-founder at Tactoom.com<br>
+				      	<i class="icon-map-marker"></i> Kyiv (External, tactoom.com) <br>
+				      	<i class="icon-star"></i> <a href="http://about.me/bogdanov" target="_blank"><i class="icon-external-link"></i> web</a>
+				  	  </p>
+				    </div>
+				    <div class="tab-pane" id="1-1-agenda">
+				      <p>
+				      	<ul>
+				      		<li><strong>Intro</strong></li>
+				      		<ul>
+					      		<li>About me</li>
+					      		<li>About Tactoom</li>
+					      	</ul>
+					      	<li><strong>Node.js</strong></li>
+				      		<ul>
+				      			<li>about technology and its features</li>
+				      			<li>applications</li>
+				      		</ul>
+				      		<li><strong>Scaling NodeJS</strong></li>
+				      		<ul>
+				      			<li>within the physical server</li>
+				      			<li>more than one server</li>
+				      			<li>decomposition</li>
+				      		</ul>
+				      		<li><strong>Redis</strong></li>
+				      		<ul>
+								<li>cache server</li>
+								<li>mutex server</li>
+								<li>server queues</li>
+								<li>internal communications server</li>
+							</ul>
+							<li><strong>MongoDB</strong></li>
+							<ul>
+								<li>benefits</li>
+								<li>schema less</li>
+								<li>replica sets and automatic failover</li>
+							</ul>
+							<li><strong>Deployment</strong></li>
+							<ul>
+								<li>static build</li>
+								<li>use capistrano</li>
+							</ul>
+				      	</ul>
+				  	  </p>
+				    </div>
+				  </div>
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#1-1-about" data-toggle="tab"><i class="icon-info-sign"></i> About</a></li>
+				    <li><a href="#1-1-agenda" data-toggle="tab"><i class="icon-th-list"></i> Agenda</a></li>
+				  </ul>
+				</div>
 		    </div>
-		    <div class="span4" id="1-2">
-		      <h3><i class="icon-user"></i> Sergey Fomkin </h3>
-		      <h4><i class="icon-comments"></i> UI-interface: web, mobile, app <span class="label label-info">UI</span></h4>
-		      <p><img class="thumbnail photo" src="/images/photos/1-2.jpg"/></p>
-		      <p>
-		      	<i class="icon-info-sign"></i> Designer, Photographer <br>
-		      	<i class="icon-map-marker"></i> Dnipro (External, sergeyfomkin.com) <br>
-		      	<i class="icon-star"></i> <a href="http://sergeyfomkin.com" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:sergeyfomkin@me.com"><i class="icon-envelope"></i> mail</a>
-		      </p>
+		    <div class="span4" id="Vladimir.Vorobyov">
+		      <h3><i class="icon-user"></i> Vladimir Vorobyov </h3>
+		      <h4><i class="icon-comments"></i> How to test JavaScript with Jasmine <span class="label label-important">JS</span></h4>
+		      <div class="tabbable tabs-below">
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="1-2-about">
+				      <p><img class="thumbnail photo" src="/images/photos/1-2.png"/></p>
+				      <p>
+				      	<i class="icon-info-sign"></i> Ruby Developer <br>
+				      	<i class="icon-map-marker"></i> Dnipro (External, Ciklum) <br>
+				      	<i class="icon-star"></i> <a href="http://www.facebook.com/vladimir.vorobyov" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:sparrowpublic@gmail.com"><i class="icon-envelope"></i> mail</a>
+				      </p>
+				    </div>
+				    <div class="tab-pane" id="1-2-agenda">
+				      <p>
+				      	<br><br><br><br><br><br><br><br>
+				      	soon ...
+				      	<br><br><br><br><br><br><br>
+				  	  </p>
+				    </div>
+				  </div>
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#1-2-about" data-toggle="tab"><i class="icon-info-sign"></i> About</a></li>
+				    <li><a href="#1-2-agenda" data-toggle="tab"><i class="icon-th-list"></i> Agenda</a></li>
+				  </ul>
+				</div>
 		    </div>
-		    <div class="span4" id="1-3">
+		    <div class="span4" id="Veronika.Dudnik">
 		      <h3><i class="icon-user"></i> Veronika Dudnik </h3>
 		      <h4><i class="icon-comments"></i> HSPS project: Sencha touch <span class="label label-important">JS</span></h4>
-		      <p><img class="thumbnail photo" src="/images/photos/1-3.jpg"/></p>
-		      <p>
-		      	<i class="icon-info-sign"></i> Web Developer <br>
-		      	<i class="icon-map-marker"></i> Dnipro (HSPS project) <br>
-		      	<i class="icon-star"></i> <a href="http://www.facebook.com/veronika.dudnik" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:vdudnyk@softserveinc.com"><i class="icon-envelope"></i> mail</a>
-		      </p>
+		       <div class="tabbable tabs-below">
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="1-3-about">
+				      <p><img class="thumbnail photo" src="/images/photos/1-3.jpg"/></p>
+				      <p>
+				      	<i class="icon-info-sign"></i> Web Developer <br>
+				      	<i class="icon-map-marker"></i> Dnipro (HSPS project) <br>
+				      	<i class="icon-star"></i> <a href="http://www.facebook.com/veronika.dudnik" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:vdudnyk@softserveinc.com"><i class="icon-envelope"></i> mail</a>
+				      </p>
+				    </div>
+				    <div class="tab-pane" id="1-3-agenda">
+				      <p>
+				      	<ul>
+				      	<li><strong>Welcome to B-Pro</strong></li>
+				      	<ul>
+							<li>Short history of B-Pro</li>
+							<li>Customer: Henry Shine Practice Solution</li>
+							<li>The Team</li>
+							<li>The Task</li>
+						</ul>
+						<li><strong>On the intersection of several roads</strong></li>
+						<ul>
+							<li>What could we use</li>
+							<li>What do we actually use</li>
+						</ul>
+						<li><strong>What is Sencha touch</strong></li>
+						<ul>
+							<li>General info about framework</li>
+							<li>Components</li>
+							<li>MVC</li>
+						</ul>
+						<li><strong>Sencha touch in our motion</strong></li>
+						<ul>
+							<li>Structure of our project</li>
+							<li>Example of our mvc</li>
+						</ul>
+						<li><strong>Advantages</strong></li>
+						<ul>
+							<li>Mobile</li>
+							<li>Easy</li>
+							<li>Components</li>
+							<li>Bunch of views</li>
+						</ul>
+						<li><strong>Nobody is perfect</strong></li>
+						<ul>
+							<li>Autofocus</li>
+							<li>Synchronous request</li>
+							<li>Lines of code</li>
+						</ul>
+						<li><strong>Review our project</strong></li>
+						</ul>
+				  	  </p>
+				    </div>
+				  </div>
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#1-3-about" data-toggle="tab"><i class="icon-info-sign"></i> About</a></li>
+				    <li><a href="#1-3-agenda" data-toggle="tab"><i class="icon-th-list"></i> Agenda</a></li>
+				  </ul>
+				</div>
 		    </div>
 	    </div>
 	    <br><br><br>
 	    <div class="row">
-	    	<div class="span4" id="1-4">
+	    	<div class="span4" id="Alex.Mekhovov">
 		      <h3><i class="icon-user"></i> Alex Mekhovov </h3>
 		      <h4><i class="icon-comments"></i> Sinatra: Sing with me this ditty <span class="label label-success">Ruby</span></h4>
-		      <p><img class="thumbnail photo" src="/images/photos/1-4.jpg"/></p>
-		      <p>
-		      	<i class="icon-info-sign"></i> Ruby on Rails Developer <br>
-		      	<i class="icon-map-marker"></i> Dnipro (HomeAway project) <br>
-		      	<i class="icon-star"></i> <a href="http://about.me/mekhovov" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:omekh@softserveinc.com"><i class="icon-envelope"></i> mail</a>
-		      </p>
+		      <div class="tabbable tabs-below">
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="1-4-about">
+				      <p><img class="thumbnail photo" src="/images/photos/1-4.jpg"/></p>
+				      <p>
+				      	<i class="icon-info-sign"></i> Ruby on Rails Developer <br>
+				      	<i class="icon-map-marker"></i> Dnipro (HomeAway project) <br>
+				      	<i class="icon-star"></i> <a href="http://about.me/mekhovov" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:omekh@softserveinc.com"><i class="icon-envelope"></i> mail</a>
+				      </p>
+				    </div>
+				    <div class="tab-pane" id="1-4-agenda">
+				      <p>
+				      	<ul>
+				      	<li><strong>Sinatra: about</strong></li>
+				      	<ul>
+							<li>What is Sinatra?</li>
+							<li>For whom?</li>
+							<li>For What?</li>
+							<li>Why?</li>
+							<li>About Sinatra</li>
+							<li>Shortly about Ruby</li>
+						</ul>
+						<li><strong>Site: up and running</strong></li>
+						<ul>
+							<li>Routes</li>
+							<li>Custom Routes</li>
+							<li>Static files</li>
+							<li>Let's up our site</li>
+							<li>Views / Templates</li>
+							<li>HAML intro</li>
+							<li>Views / Layouts</li>
+							<li>Configuration</li>
+							<li>Sinatra provide you..</li>
+						</ul>
+						<li><strong>Deploy: in a minutes</strong></li>
+						<ul>
+							<li>Rack Middleware</li>
+							<li>Heroku: what is it?</li>
+							<li>Prepare app to deploy</li>
+							<li>Deploy to Heroku</li>
+						</ul>
+						<li><strong>DB: just use it</strong></li>
+						<ul>
+							<li>ORM: It's easy</li>
+							<li>NoSQL - no problems</li>
+						</ul>
+						<li><strong>Sinatra: more</strong></li>
+						<ul>
+							<li>Authentication</li>
+							<li>Rack Modules</li>
+							<li>Images</li>
+							<li>Files Upload/Download</li>
+							<li>Social networks</li>
+							<li>API example</li>
+						</ul>
+						</ul>
+				  	  </p>
+				    </div>
+				  </div>
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#1-4-about" data-toggle="tab"><i class="icon-info-sign"></i> About</a></li>
+				    <li><a href="#1-4-agenda" data-toggle="tab"><i class="icon-th-list"></i> Agenda</a></li>
+				  </ul>
+				</div>
 		    </div>
-		    <div class="span4" id="1-5">
+		    <div class="span4" id="Volodymyr.Pavlyuk">
 		      <h3><i class="icon-user"></i> Volodymyr Pavlyuk </h3>
 		      <h4><i class="icon-comments"></i> JS Application Architecture <span class="label label-important">JS</span></h4>
-		      <p><img class="thumbnail photo" src="/images/photos/1-5.png"/></p>
-		      <p>
-		      	<i class="icon-info-sign"></i> JS Developer <br>
-		      	<i class="icon-map-marker"></i> Lviv (Firewall Project) <br>
-		      	<i class="icon-star"></i> <a href="http://www.facebook.com/volopav" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:voplav@softserveinc.com"><i class="icon-envelope"></i> mail</a>
-		      </p>
+		       <div class="tabbable tabs-below">
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="1-5-about">
+				      <p><img class="thumbnail photo" src="/images/photos/1-5.png"/></p>
+				      <p>
+				      	<i class="icon-info-sign"></i> JS Developer <br>
+				      	<i class="icon-map-marker"></i> Lviv (Firewall Project) <br>
+				      	<i class="icon-star"></i> <a href="http://www.facebook.com/volopav" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:voplav@softserveinc.com"><i class="icon-envelope"></i> mail</a>
+				      </p>
+				    </div>
+				    <div class="tab-pane" id="1-5-agenda">
+				      <p>
+				      	<br><br><br><br><br><br><br><br>
+				      	soon ...
+				      	<br><br><br><br><br><br><br>
+				  	  </p>
+				    </div>
+				  </div>
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#1-5-about" data-toggle="tab"><i class="icon-info-sign"></i> About</a></li>
+				    <li><a href="#1-5-agenda" data-toggle="tab"><i class="icon-th-list"></i> Agenda</a></li>
+				  </ul>
+				</div>
 		    </div>
-		    <div class="span4" id="1-6">
+		    <div class="span4" id="Dima.Tarasenko">
 		      <h3><i class="icon-user"></i> Dima Tarasenko</h3>
 		      <h4><i class="icon-comments"></i> Scalable JS Applications <span class="label label-important">JS</span></h4>
-		      <p><img class="thumbnail photo" src="/images/photos/1-6.jpg"/></p>
-		      <p>
-		      	<i class="icon-info-sign"></i> JS Developer <br>
-		      	<i class="icon-map-marker"></i> Lviv (Firewall Project) <br>
-		      	<i class="icon-star"></i> <a href="http://www.facebook.com/profile.php?id=100001816220762" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:dtarasen@softserveinc.com"><i class="icon-envelope"></i> mail</a>
-		      </p>
+		      <div class="tabbable tabs-below">
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="1-6-about">
+				      <p><img class="thumbnail photo" src="/images/photos/1-6.jpg"/></p>
+				      <p>
+				      	<i class="icon-info-sign"></i> JS Developer <br>
+				      	<i class="icon-map-marker"></i> Lviv (Firewall Project) <br>
+				      	<i class="icon-star"></i> <a href="http://www.facebook.com/profile.php?id=100001816220762" target="_blank"><i class="icon-external-link"></i> web</a>, <a href="mailto:dtarasen@softserveinc.com"><i class="icon-envelope"></i> mail</a>
+				      </p>
+				    </div>
+				    <div class="tab-pane" id="1-6-agenda">
+				      <p>
+				      	<ul>
+					      	<li><strong>CSS, HTML and JS History</strong></li>
+							<li><strong>OOP in JavaScript</strong></li>
+							<li><strong>MVC</strong></li>
+							<li><strong>MVC Example</strong></li>
+							<li><strong>Layers</strong></li>
+							<li><strong>Best practices</strong></li>
+						</ul>
+				  	  </p>
+				    </div>
+				  </div>
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#1-6-about" data-toggle="tab"><i class="icon-info-sign"></i> About</a></li>
+				    <li><a href="#1-6-agenda" data-toggle="tab"><i class="icon-th-list"></i> Agenda</a></li>
+				  </ul>
+				</div>
 		    </div>
 	    </div>
 	    <br><br><br>
 	    <div class="row">
-	    	<div class="span4" id="1-7">
+	    	<div class="span4" id="Sergii.Kifiak">
 	    		<h3><i class="icon-user"></i> Sergii Kifiak </h3>
 		      <h4><i class="icon-comments"></i> Mobile Web Application<span class="label label-important">JS</span></h4>
-		      <p><img class="thumbnail photo" src="/images/photos/1-7.png"/></p>
-		      <p>
-		      	<i class="icon-info-sign"></i> Web Developer<br>
-		      	<i class="icon-map-marker"></i> Chernivtsi (Diebels Project) <br>
-		      	<i class="icon-star"></i> <a href="mailto:skifiak@softserveinc.com"><i class="icon-envelope"></i> mail</a>
-		      </p>
+		      <div class="tabbable tabs-below">
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="1-7-about">
+				      <p><img class="thumbnail photo" src="/images/photos/1-7.png"/></p>
+				      <p>
+				      	<i class="icon-info-sign"></i> Web Developer<br>
+				      	<i class="icon-map-marker"></i> Chernivtsi (Diebels Project) <br>
+				      	<i class="icon-star"></i> <a href="mailto:skifiak@softserveinc.com"><i class="icon-envelope"></i> mail</a>
+				      </p>
+				    </div>
+				    <div class="tab-pane" id="1-7-agenda">
+				      <p>
+				      	<ul>
+					      	<li><strong>Architecture Offline Web Application</strong></li>
+							<li><strong>Building an Application with the Closure Library</strong></li>
+							<li><strong>Application structural framework: Backbone</strong></li>
+							<ul>
+								 <li>Backbone introduction</li>
+								 <li>Implementation MVC using Backbone</li>
+								 <li>Backbone extending</li>
+								 <li>Using Backbone Router</li>
+								 <li>Events binding</li>
+								 <li>Collections and Underscore library </li>
+							</ul>
+						<li><strong>Using EJS-templates</strong></li>
+						<li><strong>Using SCSS</strong></li>
+						<li><strong>iScroll or not iScroll</strong></li>
+						<li><strong>HTML5 features</strong></li>
+						<li><strong>Local Storage</strong></li>
+						<li><strong>Cashing</strong></li>
+						<li><strong>Canvas</strong></li>
+						</ul>
+				  	  </p>
+				    </div>
+				  </div>
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#1-7-about" data-toggle="tab"><i class="icon-info-sign"></i> About</a></li>
+				    <li><a href="#1-7-agenda" data-toggle="tab"><i class="icon-th-list"></i> Agenda</a></li>
+				  </ul>
+				</div>
 		      <br><br>
 		    </div>
 		    <div class="span4">
 	    		<h3><i class="icon-user"></i> Flash Man </h3>
 		      <h4><i class="icon-comments"></i>  Pacemaker Conference</h4>
-		      <p><img class="thumbnail photo" src="/images/photos/1-9.png"/></p>
-		      <p>
-		      	<i class="icon-info-sign"></i> JS Ninja <br>
-		      	<i class="icon-map-marker"></i> SoftServe meeting room <br>
-		      	<i class="icon-star"></i> <a href="https://twitter.com/#!/pacemaker_conf"  target="_blank"><i class="icon-external-link"></i> twitter</a>, <a href="mailto:hr@softserveinc.com"><i class="icon-envelope"></i> mail</a>
-		      </p>
+		      <div class="tabbable tabs-below">
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="1-9-about">
+				      <p><img class="thumbnail photo" src="/images/photos/1-9.png"/></p>
+				      <p>
+				      	<i class="icon-info-sign"></i> JS Ninja <br>
+				      	<i class="icon-map-marker"></i> SoftServe meeting room <br>
+				      	<i class="icon-star"></i> <a href="https://twitter.com/#!/pacemaker_conf"  target="_blank"><i class="icon-external-link"></i> twitter</a>, <a href="mailto:hr@softserveinc.com"><i class="icon-envelope"></i> mail</a>
+				      </p>
+				    </div>
+				    <div class="tab-pane" id="1-9-agenda">
+				      <p>
+				      	<ul>
+					      	<li><strong>Dmytro Ovcharenko</strong>, Dnipro</li>
+							<li><strong>Dmytro Nemoga</strong>, Dnipro</li>
+							<li><strong>Andriy Zakharko</strong>, Lviv</li>
+							<li><strong>Vadym Fedorov</strong>, Sevastopol</li>
+							<li><strong>Sergii Melnyk</strong>, Sevastopol</li>
+							<li><strong>Mykhailo Gaponov</strong>, Sevastopol</li>
+						</ul>
+				  	  </p>
+				    </div>
+				  </div>
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#1-9-about" data-toggle="tab"><i class="icon-info-sign"></i> About</a></li>
+				    <li><a href="#1-9-agenda" data-toggle="tab"><i class="icon-th-list"></i> Agenda</a></li>
+				  </ul>
+				</div>
 		      <br><br>
 		    </div>
-		    <div class="span4" id="1-8">
+		    <div class="span4" id="Anton.Bodnar">
 		      <h3><i class="icon-user"></i> Anton Bodnar </h3>
 		      <h4><i class="icon-comments"></i> Mobile Web Application<span class="label label-info">UI</span> </h4>
-		      <p><img class="thumbnail photo" src="/images/photos/1-8.png"/></p>
-		      <p>
-		      	<i class="icon-info-sign"></i> Web Developer <br>
-		      	<i class="icon-map-marker"></i> Chernivtsi (Diebels Project) <br>
-		      	<i class="icon-star"></i> <a href="mailto:abod@softserveinc.com"><i class="icon-envelope"></i> mail</a>
-		      </p>
+		      <div class="tabbable tabs-below">
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="1-8-about">
+				      <p><img class="thumbnail photo" src="/images/photos/1-8.png"/></p>
+				      <p>
+				      	<i class="icon-info-sign"></i> Web Developer <br>
+				      	<i class="icon-map-marker"></i> Chernivtsi (Diebels Project) <br>
+				      	<i class="icon-star"></i> <a href="mailto:abod@softserveinc.com"><i class="icon-envelope"></i> mail</a>
+				      </p>
+				    </div>
+				    <div class="tab-pane" id="1-8-agenda">
+				      <p>
+				      	<ul>
+					      	<li><strong>Architecture Offline Web Application</strong></li>
+							<li><strong>Building an Application with the Closure Library</strong></li>
+							<li><strong>Application structural framework: Backbone</strong></li>
+							<ul>
+								 <li>Backbone introduction</li>
+								 <li>Implementation MVC using Backbone</li>
+								 <li>Backbone extending</li>
+								 <li>Using Backbone Router</li>
+								 <li>Events binding</li>
+								 <li>Collections and Underscore library </li>
+							</ul>
+						<li><strong>Using EJS-templates</strong></li>
+						<li><strong>Using SCSS</strong></li>
+						<li><strong>iScroll or not iScroll</strong></li>
+						<li><strong>HTML5 features</strong></li>
+						<li><strong>Local Storage</strong></li>
+						<li><strong>Cashing</strong></li>
+						<li><strong>Canvas</strong></li>
+						</ul>
+				  	  </p>
+				    </div>
+				  </div>
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#1-8-about" data-toggle="tab"><i class="icon-info-sign"></i> About</a></li>
+				    <li><a href="#1-8-agenda" data-toggle="tab"><i class="icon-th-list"></i> Agenda</a></li>
+				  </ul>
+				</div>
 		      <br><br>
 		    </div>
 	    </div>
@@ -367,11 +658,11 @@
 				</tr>
 		    	<tr> 					 
 		    		<td class="time"><i class="icon-time"></i> 09:15</td>
-		    		<td><strong><i class="icon-comments"></i> Sinatra: Sing with me this ditty</strong> - <a href="#1-4"><em>Alex Mekhovov</em></a></td>
+		    		<td><strong><i class="icon-comments"></i> Sinatra: Sing with me this ditty</strong> - <a href="#Alex.Mekhovov"><em>Alex Mekhovov</em></a></td>
 		    	</tr>
 		    	<tr>
 		    		<td class="time"><i class="icon-time"></i> 10:00</td>  
-		    		<td><strong><i class="icon-comments"></i> NodeJS: Inside Tactoom.com </strong> - <a href="#1-6"><em>Yura Bogdanov</em></a></td>
+		    		<td><strong><i class="icon-comments"></i> NodeJS: Inside Tactoom.com </strong> - <a href="#Yura.Bogdanov"><em>Yura Bogdanov</em></a></td>
 		    	</tr>
 		    	<tr class="coffee-break">
 		    		<td class="time"><i class="icon-time"></i> 11:00</td>  
@@ -379,15 +670,15 @@
 		    	</tr>
 		    	<tr>
 		    		<td class="time"><i class="icon-time"></i> 11:15</td>  
-		    		<td><strong><i class="icon-comments"></i> UI-interface: web, mobile, app</strong> - <a href="#1-2"><em>Sergey Fomkin</em></a></td>
+		    		<td><strong><i class="icon-comments"></i> How to test JavaScript with Jasmine</strong> - <a href="#Vladimir.Vorobyov"><em>Vladimir Vorobyov</em></a></td>
 		    	</tr>
 		    	<tr>
 		    		<td class="time"><i class="icon-time"></i> 12:00</td>  
-		    		<td><strong><i class="icon-comments"></i> HSPS project: Sencha touch 1.0 in motion</strong> - <a href="#1-3"><em>Veronika Dudnik</em></a></td>
+		    		<td><strong><i class="icon-comments"></i> HSPS project: Sencha touch 1.0 in motion</strong> - <a href="#Veronika.Dudnik"><em>Veronika Dudnik</em></a></td>
 		    	</tr>
 		    	<tr>
 		    		<td class="time"><i class="icon-time"></i> 13:00</td>  
-		    		<td><strong><i class="icon-comments"></i> Mobile Web Application - case study</strong> - <a href="#1-7"><em>Anton Bodnar</a>, <a href="#1-8">Sergii Kifiak</em></a></td>
+		    		<td><strong><i class="icon-comments"></i> Mobile Web Application - case study</strong> - <a href="#Anton.Bodnar"><em>Anton Bodnar</a>, <a href="#Sergii.Kifiak">Sergii Kifiak</em></a></td>
 		    	</tr>
 		    	<tr class="lunch"> 		 
 		    		<td class="time"><i class="icon-time"></i> 14:15</td>  
@@ -395,11 +686,11 @@
 		    	</tr>
 		    	<tr>
 		    		<td class="time"><i class="icon-time"></i> 15:15</td>  
-		    		<td><strong><i class="icon-comments"></i> JS Application Architecture (part 1 - theory)</strong> - <a href="#1-5"><em>Volodymyr Pavlyuk</em></a></td>
+		    		<td><strong><i class="icon-comments"></i> JS Application Architecture (part 1 - theory)</strong> - <a href="#Volodymyr.Pavlyuk"><em>Volodymyr Pavlyuk</em></a></td>
 		    	</tr>
 		    	<tr>
 		    		<td class="time"><i class="icon-time"></i> 16:15</td>  
-		    		<td><strong><i class="icon-comments"></i> Scalable JavaScript Applications (part 2 - practice &amp; samples)</strong> - <a href="#1-6"><em>Dima Tarasenko</em></a></td>
+		    		<td><strong><i class="icon-comments"></i> Scalable JavaScript Applications (part 2 - practice &amp; samples)</strong> - <a href="#Dima.Tarasenko"><em>Dima Tarasenko</em></a></td>
 		    	</tr>
 		    	<tr>
 		    		<td class="time"><i class="icon-time"></i> 17:15</td>  

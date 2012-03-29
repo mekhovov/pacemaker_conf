@@ -76,6 +76,7 @@ function update_tweets () {
 
 
 $(document).ready(function(){
+
   // Slider
   $('#da-slider').cslider({
     autoplay  : true,
