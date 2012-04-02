@@ -357,7 +357,10 @@ body#error {
 .topic_author {
 	margin-top: 75px;
 	margin-left: 485px;
-	
+}
+.star_min {
+	margin-top: -45px;
+	margin-left: 480px;
 }
 
 .da-dots span {
@@ -418,6 +421,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Ayita Pro SemiBold";
 	font-size: 14px;
 	font-weight: bold;
+}
+
+.time {
+	width: 70px;
 }
 
 /************ limit ************/
