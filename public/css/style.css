@@ -287,6 +287,10 @@ body#error {
  	max-height: 50px;
 }
 
+.pht_vid {
+ 	max-height: 100px;
+}
+
 
 .twits {
 	text-align: left;
