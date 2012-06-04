@@ -228,7 +228,6 @@ body#error {
 }
 
 
-
 /****************  details  **************/
 #details .details {
 	position:relative;
@@ -275,6 +274,7 @@ body#error {
  	max-height: 195px;
 }
 
+
 .map_calendar {
  	text-align: center;
 }
@@ -287,9 +287,17 @@ body#error {
  	max-height: 50px;
 }
 
-.pht_vid {
- 	max-height: 100px;
+.pht_vid_rep .span1 {
+	width: 80px;
 }
+
+.pht_vid_rep h3 {
+	font-size: 17px;
+}
+.pht_vid {
+ 	max-height: 90px;
+}
+
 
 
 .twits {
@@ -442,6 +450,25 @@ h1, h2, h3, h4, h5, h6 {
 	max-height: 32px;
 }
 
+
+
+/****************  report  **************/
+
+#report .span7 p {
+	width: 500px;
+	margin-top: 20px;
+}
+
+.photo_report {
+ 	max-height: 400px;
+ 	max-width: 500px;
+}
+
+.logo_report {
+	margin: 0px 20px 10px 10px;
+	max-height: 110px;
+	max-width: 110px;
+}
 
 /************ register button ************/
 ul.pull-right li {

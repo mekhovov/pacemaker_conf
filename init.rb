@@ -16,6 +16,14 @@ get '/' do
   File.read('public/index.html')
 end
 
+get '/7-apr-2012-js' do
+  File.read('public/7-apr-2012-js/index.html')
+end
+
+get '/7-apr-2012-js/report' do
+  File.read('public/7-apr-2012-js/report.html')
+end
+
 get '/twitter' do
   File.read('public/twitter.html')
 end
