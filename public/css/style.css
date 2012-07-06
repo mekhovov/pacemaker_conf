@@ -522,8 +522,12 @@ ul.pull-right li {
 	padding-top: 2px;
 }
 .trillsy.navbar .container > ul.pull-right > li > a { 
-	padding-top: 2px;
 	padding: 0 15px 21px 15px;
+	
+}
+.trillsy.navbar .container > ul.pull-right > li > a.survey { 
+	padding: 0 15px 18px 15px;
+	margin-right: 25px;
 }
 
 .cta {
