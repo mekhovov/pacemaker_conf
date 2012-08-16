@@ -3,7 +3,7 @@ require 'sinatra'
 require 'twitter'
 require 'haml'
 
-require 'awesome_print'   # development mode
+# require 'awesome_print'   # development mode
 
 
 set :current_conf, 'java-2012'
