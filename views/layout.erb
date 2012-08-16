@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">  
+    <meta name="description" content="<%= settings.conferencies[settings.conf][:title] %>" />
+    <meta name="keywords" content="pacemaker, conference, java, js, ruby, node.js, sencha touch, ext.js, html, css, web-ui" />
+    <meta name="author" content="Alex Mekhovov">
+     <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  
+  <title><%= settings.conferencies[settings.conf][:title] %></title>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/bootstrap.css?v1.0" />
+  <link rel="stylesheet" href="/css/trillsy.css?v1.0" />
+  <link rel="stylesheet" href="/css/adipoli.css?v1.0" />
+  <link rel="stylesheet" href="/css/slider.css?v1.0" />
+  <link rel="stylesheet" href="/css/web.css?v1.1" />
+  <link rel="stylesheet" href="/css/font-awesome.css?v1.0" />
+  <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css?v1.6" />
+
+  <!-- js files -->
+  <script src="/js/jquery.min.js?v1.0"></script>
+  <script src="/js/bootstrap-scrollspy.js?v1.0"></script>
+  <script src="/js/bootstrap-tab.js?v1.0"></script>
+  <script src="/js/jquery.bxSlider.js?v1.0" type="text/javascript"></script>
+  <script src="/js/jquery.adipoli.js?v1.0"></script>
+  <script src="/js/jquery.timeago.js?v1.0"></script>
+  <script type="text/javascript" src="/js/modernizr.custom.28468.js?v1.0"></script>
+  <script type="text/javascript" src="/js/jquery.cslider.js?v1.0"></script>
+  <script src="/js/visibility.js?v1.0"></script>
+  <script src="/js/site.js?v1.0"></script>
+  <noscript>
+    <link rel="stylesheet" type="text/css" href="/css/nojs.css?v1.0" />
+  </noscript>
+
+</head>
+
+<body id="posts" class="index" data-spy="scroll"> 
+  
+<div class="trillsy navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <ul class="nav ribbons">
+        <li class='ribbon-js-2012'><a href="/js-2012">JS 2012</a></li>
+        <li class='ribbon-java-2012'><a href="/">Java 2012</a></li>
+      </ul>
+      <ul class="nav">
+        <li><h2><a href="/"><%= settings.conferencies[settings.conf][:title] %></a></h2></li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="about"><i class="icon-info-sign"></i> About</a></li>
+        <li><a href="speakers"><i class="icon-user"></i> Speakers</a></li>
+        <li><a href="schedule"><i class="icon-th-list"></i> Schedule</a></li>
+        <li><a href="location"><i class="icon-map-marker"></i> Location</a></li>
+        <li><a href="report"><i class="icon-pencil"></i> Report</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="https://twitter.com/#!/pacemaker_conf"  target="_blank"><img src="/images/twitter.png" class="twitter"></img></a></li>
+        <li><a href="http://www.facebook.com/PacemakerJs"  target="_blank"><img src="/images/facebook.png" class="twitter"></img></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrapper"></div>
+</div>
+  
+<div id="content" class="container">
+
+  <%= yield %>
+    
+</div>
+
+<footer class="tk-museo-slab">
+  <ul class="navlistright social">
+    <li class="follow"><%= settings.conferencies[settings.conf][:title] %> </li>
+    <li><a href="https://twitter.com/#!/pacemaker_conf"  target="_blank"><img src="/images/twitter_small.png" class="twitter"></img></a></li>
+    <li><a href="http://www.facebook.com/PacemakerJs"  target="_blank"><img src="/images/facebook_small.png" class="twitter"></img></a></li>
+  </ul>
+  <ul class="navlistleft">
+    <li><a href="about"><i class="icon-info-sign"></i> About</a></li>
+    <li><a href="speakers"><i class="icon-user"></i> Speakers</a></li>
+    <li><a href="schedule"><i class="icon-th-list"></i> Schedule</a></li>
+    <li><a href="location"><i class="icon-map-marker"></i> Location</a></li>
+    <li><a href="report"><i class="icon-pencil"></i> Report</a></li>
+  </ul>
+  <p class="copyright">Copyright &copy; 2012 SoftServe.</p>
+</footer>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30028170-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
