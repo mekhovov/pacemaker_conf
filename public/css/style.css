@@ -628,12 +628,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .program-list strong {
-	font-family: "Ayita Pro SemiBold";
 	font-size: 14px;
 	line-height: 1.5em;
 }
 .program-list .time {
-	font-family: "Ayita Pro SemiBold";
 	font-size: 14px;
 	font-weight: bold;
 }
