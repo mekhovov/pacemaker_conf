@@ -1,122 +1,124 @@
-<!-- About Section -->
+
+  <!-- About Section -->
   <div id="about" class="content_wrap">
+
+  <!-- SLIDER -->
+  <%= erb :"#{settings.conf}/_slider"  %>
+
   <div class="feature">
-    
+
     <!-- <br><br>
     <div id="hint">
       <p>April 7-8, 2012. Dnipropetrovs’k <img class="logo_conf" src="/images/js-2012/logo/logo_conf.png"/> Limit <span class="limit" ><img src="/images/6.png"></img><img src="/images/0.png"></img> &nbsp;&nbsp; people.</span> </p>
     </div> -->
-  
+
   </div>
 
   <div class="promo_text">
-    <!-- <br><br> -->
+    
     <div class="row">
-      
-      <!-- about -->
-        <div class="span4">
-          <h3><i class="icon-info-sign"></i> About</h3>
-            <p>Welcome our dear GEEKS!!! :)</p>
-            <p>
-              <i class="icon-heart"></i> We are happy to invite you to our <strong>PACEMAKER&nbsp;-&nbsp;JS&nbsp;conference</strong>, which is aimed to meet the like-minded people, share each other's experience and simply have a good time with a lot of use. 
-            </p>
-            <p>
-              <i class="icon-thumbs-up"></i> We sincerely hope that the party-like format and the positive atmosphere will help us find out something new in our common interests and enjoy ourselves during the whole day. 
-            </p>
-        <p>
-          <i class="icon-glass"></i> Since all of us will be intellectually tired at the end of the conference :) some pizza and beer will help us chill out in the informal after-party atmosphere.
-            </p>
-      </div>    
-      
-      <!-- goals -->
+      <div class="span2">
+        <h1><small><img src="/images/<%= settings.conf %>/logo/logo_conf.png"></img></small></h1>
+      </div>
       <div class="span4">
-          <h3><i class="icon-flag"></i> Goals</h3>
-          <p>
+        <p>
           <ul>
             <li>Knowledge sharing</li>
             <li>Exchanging with project experience</li>
             <li>Meet each other</li>
           </ul>
         </p>
-        <!-- format -->
-        <!-- <hr> -->
-        <br>
-          <h3><i class="icon-th-large"></i> Format</h3>
-          <p>
-            Agile way. 
-          </p>
-          <p>
-          <i class="icon-user"></i> Each speaker will present his/her topic as a user&nbsp;-&nbsp;story where each agenda item is an actual task. 
-        </p>
-          <p>
-          <i class="icon-comments"></i> At the end of every presentation we are going to have a QC-session where all the questions will be answered and all the details will be discussed. 
-        </p>
-        </div>  
-
-      <div class="span4 map_calendar">
-          <!-- <div class="row">
-            <div class="span2 1map">
-                  <h3><i class="icon-calendar"></i> When?</h3>
-                  <img class="map" src="/images/ico_calendar.png"></img>
-                  <br>
-                  <p>April 7-8, 2012.</p>
-                </div>
-
-                <div class="span2 1calendar">
-                <h3><i class="icon-map-marker"></i> Where?</h3>
-                  <a href="location">
-                    <img class="map" src="/images/ico_map.png"></img>
-                    <br>
-                    <p>
-                Karla Marksa Av., 22 <br>
-                </p>
-                  </a> 
-              </div>
-            </div> -->
-
-            <div class="row pht_vid_rep">
-            <!-- photos -->
-            <div class="span1 1map">
-              <a href="http://www.facebook.com/media/set/?set=a.216194838490149.45081.210154085760891&type=3"  target="_blank">
-                    <h3><i class="icon-picture"></i> Photos</h3>
-                    <img class="pht_vid" src="/images/ico_photos.png"></img>
-                  </a>
-                </div>
-
-                <!-- videos -->
-                <div class="span1 1calendar">
-                  <a href="http://www.youtube.com/playlist?list=PL05CD8F236BAB68BA"  target="_blank">
-                <h3><i class="icon-film"></i> Videos</h3>
-                    <img class="pht_vid" src="/images/ico_videos.png"></img>
-                  </a> 
-              </div>
-
-              <!-- report -->
-                <div class="span1 1calendar">
-                  <a href="report" >
-                <h3><i class="icon-pencil"></i> Report</h3>
-                    <img class="pht_vid" src="/images/ico_report.png"></img>
-                  </a> 
-              </div>
-
-            </div>
-
-            <!-- twitter -->
-            <br>
-            <h3><a href="twitter"><img class="map" src="/images/icon-twitter.png"> Twitter news</a></img></h3>
-              <div class="alert  twits">
-                <div class="row">
-              <div class="span1 pht">
-                    <img class="thumbnail" src="/images/ico_wait.gif"> </img>
-                    <p class="time_ago"></p>
-                  </div>
-                  <div class="span2 post">
-                    <p><br>loading..</p>
-                  </div>
-                </div>
-            </div>
-        </div>    
       </div>
+      <div class="span3">
+        <h2><small><img class="map" src="/images/ico_calendar.png"></img> <%= settings.conferencies[settings.conf][:date] %></small></h2>
+      </div>
+      <div class="span3">
+        <h2><small><img class="map" src="/images/ico_map.png"></img> <%= settings.conferencies[settings.conf][:location] %></small></h2>
+      </div>
+    </div>
+    <hr>
 
+    <div class="row">
+        <div class="span4">
+          <blockquote><p>NodeJS: Inside Tactoom.com</p> <small>Yura Bogdanov</small></blockquote>
+        </div>
+        <div class="span4">
+            <blockquote><p>How to test JavaScript with Jasmine</p> <small>Vladimir Vorobyov</small></blockquote>
+        </div>
+        <div class="span4">
+            <blockquote><p>HSPS project: Sencha touch in motion</p> <small>Veronika Dudnik</small></blockquote>
+        </div>
+        <div class="span4">
+            <blockquote><p>Sinatra: Sing with me this ditty</p> <small>Alex Mekhovov</small></blockquote>
+        </div>
+        <div class="span4">
+          <blockquote><p>JS Application Architecture</p> <small>Volodymyr Pavlyuk</small></blockquote>
+        </div>
+        <div class="span4">
+            <blockquote><p>Scalable JavaScript Applications</p> <small>Dima Tarasenko</small></blockquote>
+        </div>
+        <div class="span4">
+          <blockquote><p>Mobile Web Application case study</p> <small>Sergii Kifiak</small></blockquote>
+        </div>
+        <div class="span4">
+            <blockquote><p>Mobile Web Application case study</p> <small>Anton Bodnar</small></blockquote>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row pht_vid_rep">
+      <!-- photos -->
+      <div class="span2 1map">
+        <a href="http://www.facebook.com/media/set/?set=a.216194838490149.45081.210154085760891&type=3"  target="_blank">
+              <img class="pht_vid" src="/images/ico_photos.png"></img>
+            </a>
+              <h3>&nbsp;&nbsp;&nbsp;Photos</h3>
+          </div>
+
+          <!-- videos -->
+          <div class="span2 1calendar">
+            <a href="http://www.youtube.com/playlist?list=PL05CD8F236BAB68BA"  target="_blank">
+              <img class="pht_vid" src="/images/ico_videos.png"></img>
+            </a> 
+          <h3>&nbsp;&nbsp;&nbsp;Videos</h3>
+        </div>
+
+        <!-- report -->
+          <div class="span2 1calendar">
+            <a href="report" >
+              <img class="pht_vid" src="/images/ico_report.png"></img>
+            </a> 
+          <h3>&nbsp;&nbsp;&nbsp;Report</h3>
+        </div>
+
+        <!-- Twitter News -->
+          <div class="span2 1calendar">
+            <a href="twitter" >
+              <img class="pht_vid" src="/images/ico_twitter.png"></img>
+            </a> 
+          <h3>&nbsp;&nbsp;&nbsp;Twitter</h3>
+        </div>
+
+        <!-- Twitter Updates -->
+        <div class="span4">
+          <br>
+          <div class="twits">
+            <div class="row">
+              <div class="span1 pht">
+                <img class="thumbnail" src="/images/ico_wait.gif"> </img>
+                <p class="time_ago"></p>
+              </div>
+              <div class="span2 post">
+                <p><br>loading..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+</div>
+
+
+

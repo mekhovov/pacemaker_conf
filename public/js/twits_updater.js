@@ -58,7 +58,7 @@ function update_tweets () {
           var post_date = new Date(key.replace(/(\d+)-(\d+)-(\d+)/, '$2/$3/$1'));
           user_post = post.msg.parseURL().parseUsername().parseHashtag();
             
-            var new_p = 'alert';
+            var new_p = '';
             if ( post_date > now_date ) {
               new_p ='alert-success';  
             };
