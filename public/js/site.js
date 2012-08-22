@@ -90,13 +90,19 @@ $(document).ready(function(){
   	'hoverEffect' : 'normal'
   });
 
+  // Ribbons
+  $('.ribbon_inactive').adipoli({
+    'startEffect' : 'grayscale',
+    'hoverEffect' : 'normal'
+  });
+
   // Twitts update
-  update_tweets();
+  // update_tweets();
   // id = setInterval(update_tweets, 11400);
 
-  Visibility.every(11400, function() {
-      update_tweets();
-  });
+  // Visibility.every(11400, function() {
+  //     update_tweets();
+  // });
   
 
 });

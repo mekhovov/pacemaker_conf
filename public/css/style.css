@@ -79,7 +79,7 @@ h4 {
 /** NAV **/
 
 .pages_nav .navbar {
-    margin: 0 -10px 10px 0;
+    margin: 40px -10px 20px 0;
 }
 
 .pages_nav .navbar-inner {
@@ -214,7 +214,7 @@ h4 {
 
 /* community beta feature
 ------------------------------------------------------------------------------*/
-#about, #speakers, #program, #details {
+#about, #speakers, #program, #details, #register, #report {
 	width:100%;
 	overflow:auto;
 	background:#ffffff;
@@ -223,16 +223,20 @@ h4 {
 #community_beta .feature {
 	background:#999999 url(/images/beta_blueprint.jpg) -46px -108px no-repeat;	
 }
-#about .promo_text, #speakers .promo_text, #program .promo_text, #details .promo_text {
+#about .promo_text, #speakers .promo_text, #program .promo_text, #details .promo_text, #register .promo_text, #report .promo_text {
 	padding:20px;
 }
-#about .relative, #speakers .relative, #program .relative, #details .relative {
+#about .relative, #speakers .relative, #program .relative, #details .relative, #register .relative, #report .relative  {
 	position:relative;
 	height:448px;
 }
 
 #register {
   height: 2800px;
+}
+
+#register .header {
+  margin-bottom: 15px;
 }
 
 #content.container {
@@ -268,36 +272,16 @@ h1.ss_logo {
 /****************  ribbons  **************/
 .trillsy.navbar ul.ribbons {
   float: left;
-	margin: -30px 0px 0px 0;
+	margin: -38px 0px 0px 0;
 }
+
 .trillsy.navbar ul.ribbons li a {
-	padding: 25px;
-}
-.trillsy.navbar .ribbon-js-2012 {
-	display:inline-block;
-	margin-right: 10px;
-	width:60px;
-	height:90px;
-	background:transparent url('/images/ribbon-js-2012.png') center center no-repeat;
-	text-indent:-9000px;
+  padding: 0;
 }
 
-.trillsy.navbar .ribbon-java-2012 {
+.trillsy.navbar .ribbon {
 	display:inline-block;
-  margin-right: 10px;
-	width:60px;
-	height:90px;
-	background:transparent url('/images/ribbon-java-2012.png') center center no-repeat;
-	text-indent:-9000px;
-}
-
-.trillsy.navbar .ribbon-lamp-2012 {
-  display:inline-block;
-  margin-right: 10px;
-  width:60px;
-  height:90px;
-  background:transparent url('/images/ribbon-lamp-2012.png') center center no-repeat;
-  text-indent:-9000px;
+  margin-right: -35px;
 }
 
 /****************  about  **************/
@@ -475,14 +459,14 @@ h1.ss_logo {
 }
 
 .pht_vid_rep .span1 {
-	width: 80px;
+	width: 40px;
 }
 
 .pht_vid_rep h3 {
 	font-size: 17px;
 }
 .pht_vid {
- 	max-height: 90px;
+ 	max-height: 60px;
 }
 
 
@@ -874,4 +858,27 @@ ul.pull-right li {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+.header {
+  background: url('/images/stitches.png') repeat-x bottom left;
+  height: 200px;
+  padding-top: 20px;
+}
+
+.pacemaker_logo h1 {
+  font-size: 20px;
+}
+.pacemaker_logo small {
+  font-size: 20px;
+}
+.pacemaker_logo .logo{
+  margin: -10px 0 -10px 50px;
+  height: 170px;
+}
+
+.call_speakers {
+  font-size: 80px;
+  margin: 60px 80px;
+  color: grey;
 }

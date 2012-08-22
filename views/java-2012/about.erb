@@ -2,43 +2,11 @@
 	<!-- About Section -->
 	<div id="about" class="content_wrap">
 
-	<!-- SLIDER -->
-  <%= erb :"#{settings.conf}/_slider"  %>
+  	<%= erb :"#{settings.conf}/_header" %>
 
-	<div class="feature">
-
-		<!-- <br><br>
-		<div id="hint">
-			<p>August 4, 2012. Chernivtsi <img class="logo_conf" src="/images/java-2012/logo/logo_conf.png"/> Limit <span class="limit" ><img src="/images/6.png"></img><img src="/images/0.png"></img> &nbsp;&nbsp; people.</span></p>
-		</div>
-		<br><br><br> -->
-
-	</div>
-
+	
 	<div class="promo_text">
 		
-		<div class="row">
-			<div class="span2">
-		    <h1><small><img src="/images/<%= settings.conf %>/logo/logo_conf.png"></img></small></h1>
-			</div>
-			<div class="span4">
-		    <p>
-		    	<ul>
-            <li>Knowledge sharing</li>
-            <li>Exchanging with project experience</li>
-            <li>Meet each other</li>
-          </ul>
-		    </p>
-			</div>
-		  <div class="span3">
-		    <h2><small><img class="map" src="/images/ico_calendar.png"></img> <%= settings.conferencies[settings.conf][:date] %></small></h2>
-			</div>
-			<div class="span3">
-				<h2><small><img class="map" src="/images/ico_map.png"></img> <%= settings.conferencies[settings.conf][:location] %></small></h2>
-			</div>
-		</div>
-		<hr>
-
 		<div class="row">
 				<div class="span4">
 					<blockquote><p>Hadoop distributed computing</p> <small>Alexey Gayduk</small></blockquote>
@@ -60,57 +28,7 @@
 				</div>
 		</div>
 
-		<hr>
-
-		<div class="row pht_vid_rep">
-			<!-- photos -->
-      <div class="span2 1map">
-        <a href="http://www.facebook.com/media/set/?set=a.270956206347345.61502.210154085760891&type=3"  target="_blank">
-              <img class="pht_vid" src="/images/ico_photos.png"></img>
-            </a>
-              <h3>&nbsp;&nbsp;&nbsp;Photos</h3>
-          </div>
-
-          <!-- videos -->
-          <div class="span2 1calendar">
-            <a href="http://www.youtube.com/playlist?list=PL05CD8F236BAB68BA"  target="_blank">
-              <img class="pht_vid" src="/images/ico_videos.png"></img>
-            </a> 
-          <h3>&nbsp;&nbsp;&nbsp;Videos</h3>
-        </div>
-
-        <!-- report -->
-          <div class="span2 1calendar">
-            <a href="report" >
-              <img class="pht_vid" src="/images/ico_report.png"></img>
-            </a> 
-          <h3>&nbsp;&nbsp;&nbsp;Report</h3>
-        </div>
-
-        <!-- Twitter News -->
-          <div class="span2 1calendar">
-            <a href="twitter" >
-              <img class="pht_vid" src="/images/ico_twitter.png"></img>
-            </a> 
-          <h3>&nbsp;&nbsp;&nbsp;Twitter</h3>
-        </div>
-
-        <!-- Twitter Updates -->
-				<div class="span4">
-					<br>
-	        <div class="twits">
-	        	<div class="row">
-							<div class="span1 pht">
-	      				<img class="thumbnail" src="/images/ico_wait.gif"> </img>
-	      				<p class="time_ago"></p>
-	      			</div>
-	      			<div class="span2 post">
-	      				<p><br>loading..</p>
-	      			</div>
-	      		</div>
-	  			</div>
-				</div>
-			</div>
+	
 		</div>
 	</div>
 </div>

@@ -5,7 +5,6 @@
     <meta name="description" content="<%= settings.conferencies[settings.conf][:title] %>" />
     <meta name="keywords" content="pacemaker, conference, java, js, ruby, node.js, sencha touch, ext.js, html, css, web-ui" />
     <meta name="author" content="Alex Mekhovov">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -19,9 +18,9 @@
   <link rel="stylesheet" href="/css/adipoli.css?v1.0" />
   <link rel="stylesheet" href="/css/slider.css?v2.0" />
   <link rel="stylesheet" href="/css/web.css?v1.1" />
-  <link rel="stylesheet" href="/css/font-awesome.css?v1.0" />
+  <link rel="stylesheet" href="/css/font-awesome.css?v2.0" />
   <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/style.css?v2.4" />
+  <link rel="stylesheet" href="/css/style.css?v2.5" />
 
   <!-- js files -->
   <script src="/js/jquery.min.js?v1.0"></script>
@@ -45,7 +44,6 @@
 <div class="trillsy navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      
 
       <!-- RIBBON -->
       <%= erb :_ribbon  %>
@@ -68,7 +66,7 @@
 <div id="content" class="container">
 
   <!-- HEADER -->
-  <%= erb :"#{settings.conf}/_header"  %>
+  <%#= erb :"#{settings.conf}/_header"  %>
 
   <!-- MENU -->
   <%= erb :_menu  %>

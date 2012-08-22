@@ -1,26 +1,39 @@
-
-<br>
-<br>
-<br>
 <div class='header'>
-  <div class='span9'>
-    <h1>PACEMAKER <small><%= settings.conferencies[settings.conf][:title].gsub('PACEMAKER |', '') %></small></h1>
+
+  <div class='span4 pacemaker_logo'>
+
+    <img class="logo" src="/images/pacemaker_logo.png" />
+    <h3>PACEMAKER <small><%= settings.conferencies[settings.conf][:title].gsub('PACEMAKER |', '').gsub(', 2012', '') %></small></h3>
+
+  </div>
+
+
+  <div class='span4'>
+    <br><br>
     <p>
-      <i class="icon-calendar"></i> <%= settings.conferencies[settings.conf][:date] %>.
-
-      <i class="icon-map-marker"></i> <%= settings.conferencies[settings.conf][:location] %>
+       Conference organized by developers for developers. This is where every developer has the opportunity to meet and chat live with their colleagues from different offices to share their experience and provide helpful tips that can help in the work.
     </p>
+  </div>
+
+
+  <div class='span4'>
+      <h1 class="pull-right">
+        <small class="pull-right"> <%= settings.conferencies[settings.conf][:date] %></small><br>
+        <small class="pull-right"><%= settings.conferencies[settings.conf][:location] %></small>
+      </h1>
+    
+    <!-- Photos, videos -->
+
+      <div class="span2 1map pull-right">
+        <br><br>
+        <a href="http://www.facebook.com/media/set/?set=a.270956206347345.61502.210154085760891&type=3"  target="_blank">
+              <img class="pht_vid" src="/images/ico_photos.png"></img>
+            </a>
+          
+            <a href="http://www.youtube.com/playlist?list=PL05CD8F236BAB68BA"  target="_blank">
+              <img class="pht_vid" src="/images/ico_videos.png"></img>
+            </a> 
+        </div>
 
   </div>
-  <div class='span3'>
-    <!-- REGISTER -->
-      <!-- <div class="register pull-right">
-        <a href="register" class="btn btn-primary" >Register</a>
-      </div> 
-      <br>
-      <h4 class="pull-right">
-        <small> *only for SoftServe folks</small>
-      </h4> -->
-  </div>
-  <!-- <br><br><br> -->
 </div>
