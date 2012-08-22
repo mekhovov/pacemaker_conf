@@ -3,7 +3,7 @@
   <div class='span4 pacemaker_logo'>
 
     <img class="logo" src="/images/pacemaker_logo.png" />
-    <h3>PACEMAKER <small><%= settings.conferencies[settings.conf][:title].gsub('PACEMAKER |', '').gsub(', 2012', '') %></small></h3>
+    <h3><img class="conf_logo" src="/images/<%= settings.conf %>/logo/logo_conf.png" /> </h3>
 
   </div>
 
@@ -21,15 +21,14 @@
         <small class="pull-right"> <%= settings.conferencies[settings.conf][:date] %></small><br>
         <small class="pull-right"><%= settings.conferencies[settings.conf][:location] %></small>
     </h1>
-    <!-- REGISTER -->
 
+    <!-- REGISTER -->
       <div class="register pull-right">
-        <br>
+        <br><br>
         <a href="register" class="btn btn-primary" >Register</a>
+        <br>
+        <small>&nbsp;* only for SoftServe folks</small>
       </div> 
-      <br><br>
-      <!-- <h4 class="pull-right">
-        <small> *only for SoftServe folks</small>
-      </h4> -->
+      
   </div>
 </div>

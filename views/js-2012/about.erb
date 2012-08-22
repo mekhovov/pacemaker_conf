@@ -2,7 +2,8 @@
   <!-- About Section -->
   <div id="about" class="content_wrap">
 
-  <%= erb :"#{settings.conf}/_header" %>
+  <!-- SLIDER -->
+  <%= erb :"#{settings.conf}/_slider"  %>
 
   <div class="feature">
 
@@ -16,33 +17,99 @@
   <div class="promo_text">
     
     <div class="row">
+      <div class="span2">
+        <h1><small><img src="/images/<%= settings.conf %>/logo/logo_conf.png"></img></small></h1>
+      </div>
+      <div class="span4">
+        <p>
+          <ul>
+            <li>Knowledge sharing</li>
+            <li>Exchanging with project experience</li>
+            <li>Meet each other</li>
+          </ul>
+        </p>
+      </div>
+      <div class="span3">
+        <h2><small><img class="map" src="/images/ico_calendar.png"></img> <%= settings.conferencies[settings.conf][:date] %></small></h2>
+      </div>
+      <div class="span3">
+        <h2><small><img class="map" src="/images/ico_map.png"></img> <%= settings.conferencies[settings.conf][:location] %></small></h2>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row">
         <div class="span4">
-          <blockquote><p>NodeJS: Inside Tactoom.com</p> <small>Yura Bogdanov</small></blockquote>
+          <blockquote><p>NodeJS: Inside Tactoom.com</p> <small>Alexey Gayduk</small></blockquote>
         </div>
         <div class="span4">
-            <blockquote><p>How to test JavaScript with Jasmine</p> <small>Vladimir Vorobyov</small></blockquote>
+            <blockquote><p>Not a relational databases</p> <small>Roman Nikolaenko</small></blockquote>
         </div>
         <div class="span4">
-            <blockquote><p>HSPS project: Sencha touch in motion</p> <small>Veronika Dudnik</small></blockquote>
+            <blockquote><p>Stories from the life of Java consultant</p> <small>Andriy Shapochka</small></blockquote>
         </div>
         <div class="span4">
-            <blockquote><p>Sinatra: Sing with me this ditty</p> <small>Alex Mekhovov</small></blockquote>
+            <blockquote><p>Smarter Testing with Spock</p> <small>Dmitry Voloshko</small></blockquote>
         </div>
         <div class="span4">
-          <blockquote><p>JS Application Architecture</p> <small>Volodymyr Pavlyuk</small></blockquote>
+          <blockquote><p>Near Field Communication</p> <small>Vitaliy Yuryev</small></blockquote>
         </div>
         <div class="span4">
-            <blockquote><p>Scalable JavaScript Applications</p> <small>Dima Tarasenko</small></blockquote>
-        </div>
-        <div class="span4">
-          <blockquote><p>Mobile Web Application case study</p> <small>Sergii Kifiak</small></blockquote>
-        </div>
-        <div class="span4">
-            <blockquote><p>Mobile Web Application case study</p> <small>Anton Bodnar</small></blockquote>
+            <blockquote><p>Spring Security 3</p> <small>Maksym Titov</small></blockquote>
         </div>
     </div>
 
-    
+    <hr>
+
+    <div class="row pht_vid_rep">
+      <!-- photos -->
+      <div class="span2 1map">
+        <a href="http://www.facebook.com/media/set/?set=a.216194838490149.45081.210154085760891&type=3"  target="_blank">
+              <img class="pht_vid" src="/images/ico_photos.png"></img>
+            </a>
+              <h3>&nbsp;&nbsp;&nbsp;Photos</h3>
+          </div>
+
+          <!-- videos -->
+          <div class="span2 1calendar">
+            <a href="http://www.youtube.com/playlist?list=PL05CD8F236BAB68BA"  target="_blank">
+              <img class="pht_vid" src="/images/ico_videos.png"></img>
+            </a> 
+          <h3>&nbsp;&nbsp;&nbsp;Videos</h3>
+        </div>
+
+        <!-- report -->
+          <div class="span2 1calendar">
+            <a href="report" >
+              <img class="pht_vid" src="/images/ico_report.png"></img>
+            </a> 
+          <h3>&nbsp;&nbsp;&nbsp;Report</h3>
+        </div>
+
+        <!-- Twitter News -->
+          <div class="span2 1calendar">
+            <a href="twitter" >
+              <img class="pht_vid" src="/images/ico_twitter.png"></img>
+            </a> 
+          <h3>&nbsp;&nbsp;&nbsp;Twitter</h3>
+        </div>
+
+        <!-- Twitter Updates -->
+        <div class="span4">
+          <br>
+          <div class="twits">
+            <div class="row">
+              <div class="span1 pht">
+                <img class="thumbnail" src="/images/ico_wait.gif"> </img>
+                <p class="time_ago"></p>
+              </div>
+              <div class="span2 post">
+                <p><br>loading..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

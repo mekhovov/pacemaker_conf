@@ -13,7 +13,7 @@ set :conferencies, {
   'lamp-2012' => {
     :title  => 'PACEMAKER | LAMP Conference, 2012',
     :date => '22 September, 2012',
-    :location => 'Ivano Frankovsk',
+    :location => 'Ivano-Frankivsk',
     :limit => 60
   },
   'java-2012' => {

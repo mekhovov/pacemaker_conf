@@ -862,7 +862,7 @@ ul.pull-right li {
 
 .header {
   background: url('/images/stitches.png') repeat-x bottom left;
-  height: 200px;
+  height: 190px;
   padding-top: 20px;
 }
 
@@ -872,9 +872,14 @@ ul.pull-right li {
 .pacemaker_logo small {
   font-size: 20px;
 }
-.pacemaker_logo .logo{
-  margin: -10px 0 -10px 50px;
-  height: 170px;
+.pacemaker_logo .logo {
+  margin: -5px 0 -5px 10px;
+  height: 140px;
+}
+
+.conf_logo {
+  margin-top:  -15px;
+  width: 160px;
 }
 
 .call_speakers {
