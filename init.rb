@@ -6,8 +6,8 @@ require 'haml'
 # require 'awesome_print'   # development mode
 
 
-set :current_conf, 'java-2012'
-set :planned_conf, ['lamp-2012']
+set :current_conf, 'lamp-2012'
+set :planned_conf, []
 
 set :conferencies, {
   'lamp-2012' => {

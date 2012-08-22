@@ -231,6 +231,10 @@ h4 {
 	height:448px;
 }
 
+#register {
+  height: 2800px;
+}
+
 #content.container {
 	margin-top: 25px;
 }
@@ -278,13 +282,22 @@ h1.ss_logo {
 	text-indent:-9000px;
 }
 
-/****************  logo  **************/
 .trillsy.navbar .ribbon-java-2012 {
 	display:inline-block;
+  margin-right: 10px;
 	width:60px;
 	height:90px;
 	background:transparent url('/images/ribbon-java-2012.png') center center no-repeat;
 	text-indent:-9000px;
+}
+
+.trillsy.navbar .ribbon-lamp-2012 {
+  display:inline-block;
+  margin-right: 10px;
+  width:60px;
+  height:90px;
+  background:transparent url('/images/ribbon-lamp-2012.png') center center no-repeat;
+  text-indent:-9000px;
 }
 
 /****************  about  **************/
