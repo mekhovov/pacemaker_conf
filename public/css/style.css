@@ -230,7 +230,13 @@ h4 {
 	position:relative;
 	height:448px;
 }
+#about .speakers .span1 {
+  padding: 0;
+}
+#about .speakers .span3 {
+  margin-left: 5px;
 
+}
 #register {
   height: 2800px;
 }
