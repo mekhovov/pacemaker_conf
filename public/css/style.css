@@ -867,19 +867,24 @@ ul.pull-right li {
 }
 
 .pacemaker_logo h1 {
-  font-size: 20px;
+  font-size: 26px;
+  color: rgb(215, 74, 72);
+  text-shadow: rgba(0, 0, 0, 1) 1px 0px 2px;
 }
 .pacemaker_logo small {
-  font-size: 20px;
+  font-size: 26px;
+  color: rgb(248, 148, 6);
+  font-weight: bold;
 }
 .pacemaker_logo .logo {
-  margin: -5px 0 -5px 10px;
-  height: 140px;
+  margin: 0px 0 -10px 25px;
+  height: 145px;
+
 }
 
 .conf_logo {
   margin-top:  -15px;
-  width: 160px;
+  width: 180px;
 }
 
 .call_speakers {
