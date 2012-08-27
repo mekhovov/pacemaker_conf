@@ -920,7 +920,7 @@ ul.pull-right li {
 
 .speakers .topic {
   position: relative;
-  height: 100px;
+  min-height: 100px;
   background-color: rgba(240, 240, 240, 0.2);
   color: #555;
   border-color: rgba(240, 240, 240, 0.8);
