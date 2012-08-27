@@ -4,8 +4,10 @@
       <ul class="nav">
           <li <%= settings.page == 'about' ? 'class="active"' : '' %> ><a href="about"><i class="icon-info-sign"></i> About</a></li>
           <li <%= settings.page == 'speakers' ? 'class="active"' : '' %> ><a href="speakers"><i class="icon-user"></i> Speakers</a></li>
-          <li <%= settings.page == 'schedule' ? 'class="active"' : '' %> ><a href="schedule"><i class="icon-th-list"></i> Schedule</a></li>
-          <li <%= settings.page == 'location' ? 'class="active"' : '' %> ><a href="location"><i class="icon-map-marker"></i> Location</a></li>
+          <% if settings.conferencies[settings.conf][:scheduled] %>
+            <li <%= settings.page == 'schedule' ? 'class="active"' : '' %> ><a href="schedule"><i class="icon-th-list"></i> Schedule</a></li>
+          <% end %>
+            <li <%= settings.page == 'location' ? 'class="active"' : '' %> ><a href="location"><i class="icon-map-marker"></i> Location</a></li>
           <% unless settings.current_conf == settings.conf %>
             <li <%= settings.page == 'report' ? 'class="active"' : '' %> ><a href="report"><i class="icon-pencil"></i> Report</a></li>
           <% end %>

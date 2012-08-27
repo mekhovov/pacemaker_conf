@@ -14,19 +14,22 @@ set :conferencies, {
     :title  => 'PACEMAKER | LAMP Conference, 2012',
     :date => '22 September, 2012',
     :location => 'Ivano-Frankivsk',
-    :limit => 60
+    :limit => 60,
+    :scheduled => false
   },
   'java-2012' => {
     :title  => 'PACEMAKER | Java Conference, 2012',
     :date => '4 August, 2012',
     :location => 'Chernivtsi',
-    :limit => 75
+    :limit => 75,
+    :scheduled => true
   },
   'js-2012' => {
     :title  => 'PACEMAKER | JS Conference, 2012',
     :date => '7 April, 2012',
     :location => 'Dnipropetrovsk',
-    :limit => 60
+    :limit => 60,
+    :scheduled => true
   }
 }
 
