@@ -966,3 +966,11 @@ ul.pull-right li {
 #about .star_minutes blockquote {
   border-left: 5px solid rgba(0, 136, 204, 0.2);
 }
+
+.about_conf_text {
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #444;
+}
