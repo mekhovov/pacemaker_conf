@@ -23,7 +23,7 @@
     </h1>
 
     <!-- REGISTER -->
-    <% if settings.page != 'register'%>
+    <% if settings.page != 'register' && settings.conferencies[settings.conf][:reg_open]%>
       <div class="register pull-right">
         <br>
         <a href="register" class="btn btn-primary" >Register</a>

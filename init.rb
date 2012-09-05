@@ -15,21 +15,24 @@ set :conferencies, {
     :date => '22 September, 2012',
     :location => 'Ivano-Frankivsk',
     :limit => 60,
-    :scheduled => false
+    :scheduled => false,
+    :reg_open => false
   },
   'java-2012' => {
     :title  => 'PACEMAKER | Java Conference, 2012',
     :date => '4 August, 2012',
     :location => 'Chernivtsi',
     :limit => 75,
-    :scheduled => true
+    :scheduled => true,
+    :reg_open => false
   },
   'js-2012' => {
     :title  => 'PACEMAKER | JS Conference, 2012',
     :date => '7 April, 2012',
     :location => 'Dnipropetrovsk',
     :limit => 60,
-    :scheduled => true
+    :scheduled => true,
+    :reg_open => false
   }
 }
 
@@ -73,6 +76,16 @@ end
 
 get '/:conf' do |conf|
   redirect to("#{conf}/#{settings.current_conf == conf ? 'about' : 'report'}")
+end
+
+get '/:conf/register' do |conf|
+  if settings.conferencies[conf][:reg_open]
+    set :conf, conf
+    set :page, 'register'
+    erb :"#{conf}/register"
+  else
+    redirect to("#{conf}/about")
+  end
 end
 
 get '/:conf/:page' do |conf, page|
