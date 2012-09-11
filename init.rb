@@ -15,7 +15,7 @@ set :conferencies, {
     :date => '22 September, 2012',
     :location => 'Ivano-Frankivsk',
     :limit => 60,
-    :scheduled => false,
+    :scheduled => true,
     :reg_open => false
   },
   'java-2012' => {
