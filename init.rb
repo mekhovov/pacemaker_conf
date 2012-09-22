@@ -16,6 +16,7 @@ set :conferencies, {
     :location => 'Ivano-Frankivsk',
     :limit => 60,
     :scheduled => true,
+    :vote => true,
     :reg_open => false
   },
   'java-2012' => {
@@ -24,6 +25,7 @@ set :conferencies, {
     :location => 'Chernivtsi',
     :limit => 75,
     :scheduled => true,
+    :vote => false,
     :reg_open => false
   },
   'js-2012' => {
@@ -32,6 +34,7 @@ set :conferencies, {
     :location => 'Dnipropetrovsk',
     :limit => 60,
     :scheduled => true,
+    :vote => false,
     :reg_open => false
   }
 }
