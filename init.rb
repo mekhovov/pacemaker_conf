@@ -6,10 +6,19 @@ require 'haml'
 # require 'awesome_print'   # development mode
 
 
-set :current_conf, 'lamp-2012'
+set :current_conf, 'ups-2012'
 set :planned_conf, []
 
 set :conferencies, {
+  'ups-2012' => {
+    :title  => 'PACEMAKER | UPS Conference, 2012',
+    :date => '1 December, 2012',
+    :location => 'Rivne',
+    :limit => 50,
+    :scheduled => false,
+    :vote => false,
+    :reg_open => false
+  },
   'lamp-2012' => {
     :title  => 'PACEMAKER | LAMP Conference, 2012',
     :date => '22 September, 2012',

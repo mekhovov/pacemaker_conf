@@ -1,0 +1,53 @@
+<div class='header'>
+
+  <div class='span4 pacemaker_logo'>
+
+    <img class="logo" src="/images/pacemaker_logo.png" />
+    <h1>PACEMAKER <small><%= settings.conferencies[settings.conf][:title].gsub('PACEMAKER |', '').gsub('Conference, 2012', '') %></small></h1>
+
+  </div>
+
+
+  <div class='span4'>
+    <p class="about_conf_text">
+      <strong>Conference organized by developers for developers</strong>. This is where everyone has the opportunity to meet and chat live with their colleagues from different offices, to share experience and helpful tips.<br>
+    </p> 
+      <small class="pull-right">*company covers travel and lodging expenses.</small>
+  </div>
+
+
+  <div class='span4'>
+      <h1 class="pull-right">
+        <small class="pull-right"> <img class="icons" src="/images/ico-time.png"></img> <%= settings.conferencies[settings.conf][:date] %></small><br>
+        <small class="pull-right"> <img class="icons" src="/images/ico-location.png"></img> <%= settings.conferencies[settings.conf][:location] %></small>
+    </h1>
+
+    <!-- REGISTER -->
+    <% if settings.page != 'register' && settings.conferencies[settings.conf][:reg_open]%>
+      <div class="register pull-right">
+        <br>
+        <a href="register" class="btn btn-primary" >Register</a>
+        <br>
+        <small class="">&nbsp;*only for SoftServe folks</small>
+      </div> 
+    <% end %>
+
+    <!-- Photos, videos -->
+
+      <!-- <div class="span2 1map pull-right"> -->
+      <!-- <div class="span1 1map pull-right">
+        <br><br>
+        <a href="http://www.facebook.com/media/set/?set=a.285909131518719.66304.210154085760891&type=1"  target="_blank">
+              <img class="pht_vid" src="/images/ico_photos.png"></img>
+            </a>
+          
+            <a href="#"  target="_blank">
+              <img class="pht_vid" src="/images/ico_videos.png"></img>
+            </a>
+        </div> -->
+
+
+
+
+  </div>
+</div>

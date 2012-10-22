@@ -1,0 +1,59 @@
+
+  <!-- Details Section -->
+  <div id="details" class="content_wrap">
+
+    <%= erb :"#{settings.conf}/_header" %>
+    
+  
+  <div class="promo_text">
+    <div class="row">
+        <div class="span4">
+          <h3><i class="icon-pushpin"></i> Address</h3>
+        <p>
+          <strong>City: </strong> <%= settings.conferencies[settings.conf][:location] %> <br>
+          <!-- <strong>Hotel: </strong> .. <br> -->
+        </p>
+       <hr>
+         <h3><i class="icon-list-alt"></i> Contacts</h3>
+        <p>
+          <h4><i class="icon-user"></i> Khrystyna Paprotska</h4>
+          <ul>
+            <li><strong>tel.: </strong> +380 96 846 49 33  (int: 1772)</li>
+            <li><strong>mail: </strong> <a href="mailto:kpap@softserveinc.com">kpap@softserveinc.com</a> </li>
+          </ul>
+        </p>
+        <p>
+          <h4><i class="icon-user"></i> Dmytro Ovcharenko</h4>
+          <ul>
+            <li><strong>tel.: </strong> +380 98 438 91 41 </li>
+            <li><strong>mail: </strong> <a href="mailto:dovchar@softserveinc.com">dovchar@softserveinc.com</a> </li>
+            <li><strong>skype: </strong> ovcharenko.dima</li>
+        </ul>
+        </p>
+        <p>
+          <h4><i class="icon-user"></i> Alex Mekhovov</h4>
+          <ul>
+            <li><strong>tel.: </strong> +380 67 243 58 88 </li>
+            <li><strong>mail: </strong> <a href="mailto:omekh@softserveinc.com">omekh@softserveinc.com</a> </li>
+        </ul>
+        </p>
+       <hr>
+        <!-- <h3><i class="icon-search"></i> How to find us</h3>
+        <p>
+          <strong>Map Vokzal-Hotel:</strong> <a href="/map/map_pacemaker_lamp_vokzal-home.png">view</a><br>
+          <strong>Map Hotel-Conference:</strong> <a href="/map/map_pacemaker_lamp_home-conf.png">view</a>
+        </p> -->
+        </div>
+        
+
+        <div class="span4">
+        <h3><i class="icon-map-marker"></i> Direction map</h3>
+          <p>
+            <iframe width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=Rivne&amp;z=15&amp;output=embed"></iframe>
+          </p>
+        </div>
+      </div>
+
+  </div>
+  </div>
+
