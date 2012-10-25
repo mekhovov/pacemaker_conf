@@ -13,37 +13,45 @@ set :conferencies, {
   'ops-2012' => {
     :title  => 'PACEMAKER | OPS Conference, 2012',
     :date => '1 December, 2012',
+    :reg_deadline => 'September 5th, 18:00',
     :location => 'Rivne',
     :limit => 50,
     :scheduled => false,
     :vote => false,
+    :report => false,
     :reg_open => false
   },
   'lamp-2012' => {
     :title  => 'PACEMAKER | LAMP Conference, 2012',
     :date => '22 September, 2012',
+    :reg_deadline => 'September 5th, 18:00',
     :location => 'Ivano-Frankivsk',
     :limit => 60,
     :scheduled => true,
     :vote => true,
-    :reg_open => false
+    :report => false,
+    :reg_open => true
   },
   'java-2012' => {
     :title  => 'PACEMAKER | Java Conference, 2012',
     :date => '4 August, 2012',
+    :reg_deadline => 'September 5th, 18:00',
     :location => 'Chernivtsi',
     :limit => 75,
     :scheduled => true,
     :vote => false,
+    :report => true,
     :reg_open => false
   },
   'js-2012' => {
     :title  => 'PACEMAKER | JS Conference, 2012',
     :date => '7 April, 2012',
+    :reg_deadline => 'September 5th, 18:00',
     :location => 'Dnipropetrovsk',
     :limit => 60,
     :scheduled => true,
     :vote => false,
+    :report => true,
     :reg_open => false
   }
 }
@@ -87,7 +95,8 @@ get '/:conf/slides/:file' do |conf, file|
 end
 
 get '/:conf' do |conf|
-  redirect to("#{conf}/#{settings.current_conf == conf ? 'about' : 'report'}")
+  # redirect to("#{conf}/#{settings.current_conf == conf ? 'about' : 'report'}")
+  redirect to("#{conf}/about")
 end
 
 get '/:conf/register' do |conf|

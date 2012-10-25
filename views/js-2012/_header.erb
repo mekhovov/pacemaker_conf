@@ -1,30 +1,35 @@
 <div class='header'>
 
-  <div class='span4 pacemaker_logo'>
-
-    <img class="logo" src="/images/pacemaker_logo.png" />
-    <h1>PACEMAKER <small><%= settings.conferencies[settings.conf][:title].gsub('PACEMAKER |', '').gsub('Conference, 2012', '') %></small></h1>
-
-  </div>
-
-
-  <div class='span4'>
-    <p class="about_conf_text">
-      <strong>Conference organized by developers for developers</strong>. This is where everyone has the opportunity to meet and chat live with their colleagues from different offices, to share experience and helpful tips.<br>
+  <div class='span8 conf_about'>
+    <p>
+      It takes all the running you can do, to keep in the same place. If you want to get somewhere else, you must run at least twice as fast as that!<br>
+      <span class="author">-Red Queen </span>
     </p> 
-      <small class="pull-right">*company covers travel and lodging expenses.</small>
+  </div>
+
+  <div class='span4 conf_logo'>
+      <img class="logo" src="/images/pacemaker_logo.png" />
   </div>
 
 
-  <div class='span4'>
-      <h1 class="pull-right">
-        <small class="pull-right"> <img class="icons" src="/images/ico-time.png"></img> <%= settings.conferencies[settings.conf][:date] %></small><br>
-        <small class="pull-right"> <img class="icons" src="/images/ico-location.png"></img> <%= settings.conferencies[settings.conf][:location] %></small>
-      </h1>
-    
+  <div class='span8 conf_name'>
+    <h1> Pacemaker:<%= settings.conferencies[settings.conf][:title].gsub('PACEMAKER | ', '').gsub('Conference, 2012', '') %> </h1>
+    <p> made by “SoftServers for SoftServers” </p>
+  </div>
+
+  <div class='span4 conf_details'>
+    <p>
+      This time <strong> <%= settings.conferencies[settings.conf][:limit] %> lucky people </strong> <br>
+      will meet on <strong> <%= settings.conferencies[settings.conf][:date] %> </strong> <br>
+      in a beautiful city of <strong> <%= settings.conferencies[settings.conf][:location] %> </strong> <br>
+    </p>
+  </div>
+
+</div>
+
     <!-- Photos, videos -->
 
-      <div class="span2 1map pull-right">
+      <!-- <div class="span2 1map pull-right">
         <br><br>
         <a href="http://www.facebook.com/media/set/?set=a.216194838490149.45081.210154085760891&type=3"  target="_blank">
               <img class="pht_vid" src="/images/ico_photos.png"></img>
@@ -33,7 +38,4 @@
             <a href="http://www.youtube.com/playlist?list=PL05CD8F236BAB68BA"  target="_blank">
               <img class="pht_vid" src="/images/ico_videos.png"></img>
             </a> 
-        </div>
-
-  </div>
-</div>
+        </div> -->

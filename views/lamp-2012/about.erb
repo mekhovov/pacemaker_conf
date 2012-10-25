@@ -4,131 +4,180 @@
 
     <%= erb :"#{settings.conf}/_header" %>
 
-	<div class="promo_text">
-   
-    <h3>Speakers</h3><br>
 
-    <div class="row speakers">
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-5.png"/>
-        </div>
-        <div class="span3">
-          <blockquote>
-            <p><a href="/slides/<%= settings.conf %>/Yehor_Nazarkin-Building_rich_web_application_with_Flask_and_Chaplin_js.pdf" target="_blank"><i class="icon-download-alt"></i></a> Building rich web application with Flask and Chaplin.js</p> 
-            <small><a href="speakers#Yehor.Nazarkin">Yehor Nazarkin</a></small>
-          </blockquote>
-        </div>
+    <div class='span8 speakers'>
+      
+      <h3>Speakers:</h3>
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-1.png"/>
-        </div>
-        <div class="span3">
-          <blockquote>
-            <p><a href="http://prezi.com/lndwqvmhaipk/ci-in-big-projects/" target="_blank"><i class="icon-download-alt"></i></a> Continious Integrations in big projects</p> 
-            <small><a href="speakers#Yudenko.Andriy">Yudenko Andriy</a></small>
-          </blockquote>
-        </div>
-
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-2.png"/>
-        </div>
-        <div class="span3">
-          <blockquote>
-            <p><a href="/slides/<%= settings.conf %>/Alona_Mekhovova-Using_and_scaling_Rack_and Rack-based_middleware.pdf" target="_blank"><i class="icon-download-alt"></i></a> Using and scaling Rack and Rack-based middleware</p> 
-            <small><a href="speakers#Alona.Mekhovova">Alona Mekhovova</a></small>
-          </blockquote>
-        </div>
-
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-5.png"/>
+          <p>
+            <a href="/slides/<%= settings.conf %>/Yehor_Nazarkin-Building_rich_web_application_with_Flask_and_Chaplin_js.pdf" target="_blank"><i class="icon-download-alt"></i></a> 
+            Building rich web application with Flask and Chaplin.js
+          </p> 
+          <p class='author'>
+            <a href="speakers#Yehor.Nazarkin">Yehor Nazarkin</a>
+          </p>
       </div>
 
-      <div class="row speakers">
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-3.png"/>
-        </div>
-        <div class="span3">
-          <blockquote><br>
-            <p><a href="/slides/<%= settings.conf %>/Vadim_Mateushev-Emotional_intelligence.pptx" target="_blank"><i class="icon-download-alt"></i></a> Emotional intelligence</p> 
-            <small><a href="speakers#Vadim.Mateushev">Vadim Mateushev</a></small>
-          </blockquote>
-        </div>
-        
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-4.png"/>
-        </div>
-        <div class="span3">
-          <blockquote>
-            <p><a href="/slides/<%= settings.conf %>/Orest_Ivasiv-Adventures_of_Java_developer_in_Ruby_world.pptx" target="_blank"><i class="icon-download-alt"></i></a> Adventures of Java developer in Ruby world</p> 
-            <small><a href="speakers#Orest.Ivasiv">Orest Ivasiv</a></small>
-          </blockquote>
-        </div>
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-6.png"/>
-        </div>
-        <div class="span3">
-          <blockquote>
-            <p><a href="/slides/<%= settings.conf %>/Yuriy_Chulovskyy-Create_web_app_with_AngularJS_Grails_and_MongoDB_in_1_hour.pptx" target="_blank"><i class="icon-download-alt"></i></a> Create web app with AngularJS, Grails and MongoDB in 1 hour!</p> 
-            <small><a href="speakers#Yuriy.Chulovskyy">Yuriy Chulovskyy</a></small>
-          </blockquote>
-        </div>
-
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-1.png"/>
+          <p>
+            <a href="http://prezi.com/lndwqvmhaipk/ci-in-big-projects/" target="_blank"><i class="icon-download-alt"></i></a>
+            Continious Integrations in big projects
+          </p> 
+          <p class='author'>
+            <a href="speakers#Yudenko.Andriy">Yudenko Andriy</a>
+          </p>
       </div>
 
-    <h3>Lightning talks</h3><br>
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-2.png"/>
+          <p>
+            <a href="/slides/<%= settings.conf %>/Alona_Mekhovova-Using_and_scaling_Rack_and Rack-based_middleware.pdf" target="_blank"><i class="icon-download-alt"></i></a> 
+            Using and scaling Rack and Rack-based middleware
+          </p> 
+          <p class='author'>
+            <a href="speakers#Alona.Mekhovova">Alona Mekhovova</a>
+          </p>
+      </div>
 
-    <div class="row speakers">
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-3.png"/>
+          <p>
+            <a href="/slides/<%= settings.conf %>/Vadim_Mateushev-Emotional_intelligence.pptx" target="_blank"><i class="icon-download-alt"></i></a>
+            Emotional intelligence
+          </p> 
+          <p class='author'>
+            <a href="speakers#Vadim.Mateushev">Vadim Mateushev</a>
+          </p>
+      </div>
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-4.png"/>
+          <p>
+            <a href="/slides/<%= settings.conf %>/Orest_Ivasiv-Adventures_of_Java_developer_in_Ruby_world.pptx" target="_blank"><i class="icon-download-alt"></i></a> 
+            Adventures of Java developer in Ruby world
+          </p> 
+          <p class='author'>
+            <a href="speakers#Orest.Ivasiv">Orest Ivasiv</a>
+          </p>
+      </div>
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-6.png"/>
+          <p>
+            <a href="/slides/<%= settings.conf %>/Yuriy_Chulovskyy-Create_web_app_with_AngularJS_Grails_and_MongoDB_in_1_hour.pptx" target="_blank"><i class="icon-download-alt"></i></a>
+            Create web app with AngularJS, Grails and MongoDB in 1 hour!
+          </p> 
+          <p class='author'>
+            <a href="speakers#Yuriy.Chulovskyy">Yuriy Chulovskyy</a>
+          </p>
+      </div>
 
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-1.png"/>
-        </div>
-        <div class="span3 star_minutes">
-          <blockquote>
-            <p><a href="/slides/<%= settings.conf %>/Yevhen_Yepanchyn-Code_review_fisheye_and_crucible.pptx" target="_blank"><i class="icon-download-alt"></i></a> Code review: fisheye & crucible</p> 
-            <small>Yevhen Yepanchyn</small>
-          </blockquote>
-        </div>
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-2.png"/>
-        </div>
-        <div class="span3 star_minutes">
-          <blockquote >
-            <p><a href="/slides/<%= settings.conf %>/Petro_Sasnyk-Libreeze.com-life_inside_of_startup.pptx" target="_blank"><i class="icon-download-alt"></i></a> Libreeze.com - life inside of startup</p> 
-            <small>Petro Sasnyk</small>
-          </blockquote>
-        </div>
 
-      <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-3.png"/>
-        </div>
-        <div class="span3 star_minutes">
-          <blockquote ><br>
-            <p><a href="/slides/<%= settings.conf %>/Kyrylo-Buzykin-3D_via_JavaScript.key" target="_blank"><i class="icon-download-alt"></i></a> 3D via JavaScript</p> 
-            <small>Kyrylo Buzykin</small>
-          </blockquote>
-        </div>
-      
+      <h3>Lightning talks:</h3>
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/2-1.png"/>
+          <p>
+            <a href="/slides/<%= settings.conf %>/Yevhen_Yepanchyn-Code_review_fisheye_and_crucible.pptx" target="_blank"><i class="icon-download-alt"></i></a> 
+            Code review: fisheye & crucible
+          </p> 
+          <p class='author'>
+            Yevhen Yepanchyn
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/2-2.png"/>
+          <p>
+            <a href="/slides/<%= settings.conf %>/Petro_Sasnyk-Libreeze.com-life_inside_of_startup.pptx" target="_blank"><i class="icon-download-alt"></i></a> 
+            Libreeze.com - life inside of startup
+          </p> 
+          <p class='author'>
+            Petro Sasnyk
+          </p>
+      </div>
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-2.png"/>
+          <p>
+            <a href="/slides/<%= settings.conf %>/Kyrylo-Buzykin-3D_via_JavaScript.key" target="_blank"><i class="icon-download-alt"></i></a> 
+            3D via JavaScript
+          </p> 
+          <p class='author'>
+            Kyrylo Buzykin
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-3.png"/>
+          <p>
+            <a href="/slides/<%= settings.conf %>/Serhiy_Yakovyn-Clojure_An_uncommon_view_at_multithreading.pptx" target="_blank"><i class="icon-download-alt"></i></a> 
+            Clojure. An uncommon view at multithreading
+          </p> 
+          <p class='author'>
+            Serhiy Yakovyn
+          </p>
+      </div>
+
+
     </div>
-        
-    <div class="row speakers">
-      
-      <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-4.png"/>
+
+
+    <div class='span4 speakers_info'>
+      <h3><br></h3>
+
+      <% if settings.page != 'register' && settings.conferencies[settings.conf][:reg_open]%>
+        <div class="span4">
+          <p>
+            <div class="register">
+              <a href="register" class="btn btn-primary" >Register</a>
+              <br>
+              <small class="">&nbsp;*only for SoftServe folks</small>
+            </div> 
+          </p>
         </div>
-        <div class="span3 star_minutes">
-          <blockquote>
-            <p><a href="/slides/<%= settings.conf %>/Serhiy_Yakovyn-Clojure_An_uncommon_view_at_multithreading.pptx" target="_blank"><i class="icon-download-alt"></i></a> Clojure. An uncommon view at multithreading</p> 
-            <small>Serhiy Yakovyn</small>
-          </blockquote>
+
+        <div class="span4">
+          <p>
+            <strong> 
+              Registration deadline <br>
+            </strong>
+              <%= settings.conferencies[settings.conf][:reg_deadline]%> 
+          </p>
         </div>
-      
+      <% end %>
+
+      <div class="span4">
+        <p>
+          SoftServe covers transportation <br>
+          and lodging expenses.
+        </p>
+      </div>
+
+      <div class="span4">
+          <a href="http://www.facebook.com/media/set/?set=a.285909131518719.66304.210154085760891&type=1"  target="_blank">
+                <img class="pht_vid" src="/images/ico_photos.png"></img>
+          </a>
+
+          <a href="http://www.youtube.com/playlist?list=PL05CD8F236BAB68BA"  target="_blank">
+              <img class="pht_vid" src="/images/ico_videos.png"></img>
+            </a>
+      </div>
+
+
     </div>
 
-  
-  
-		</div>
-	</div>
+
+
 </div>
 
 

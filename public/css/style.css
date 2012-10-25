@@ -276,18 +276,44 @@ h1.ss_logo {
 }
 
 /****************  ribbons  **************/
+
+.trillsy.navbar {
+}
 .trillsy.navbar ul.ribbons {
   float: left;
-	margin: -38px 0px 0px 0;
+	margin: -38px 0 0 0;
 }
 
+#main_menu {
+  z-index: 200;
+}
+
+#ribbons_menu {
+  z-index: 100;
+  height: 30px;
+}
+.navbar-fixed-top {
+  height: 30px;
+}
+
+.trillsy.navbar ul.ribbons li {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 .trillsy.navbar ul.ribbons li a {
   padding: 0;
+  margin-bottom: 0;
 }
 
+.trillsy.navbar ul.ribbons li a img {
+  /*height: 110px;*/
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 .trillsy.navbar .ribbon {
 	display:inline-block;
   margin-right: -20px;
+  padding-bottom: 0;
 }
 
 /****************  about  **************/
@@ -332,7 +358,9 @@ h1.ss_logo {
 }
 
 /****************  speakers  **************/
-#speakers .speakers {
+
+
+/*#speakers .speakers {
 	position:relative;
 	height:90px;
 	background: none;
@@ -371,6 +399,28 @@ h1.ss_logo {
 	border: 1px solid #B7BBC0;
 	padding: 5px;
 
+}*/
+
+
+
+
+#speakers h3 small {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#speakers .topic h4 {
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+#speakers .photo {
+  padding-top: 15px;
+  width: 120px;
+}
+
+#speakers .about {
+  width: 425px;
+}
+
+#speakers .topic {
+  width: 280px;
 }
 
 /****************  program  **************/
@@ -798,7 +848,9 @@ ul.pull-right li {
 
 
 
-
+.register small {
+  margin-left: 60px;
+}
 
 
 /* Download button */
@@ -813,7 +865,8 @@ ul.pull-right li {
   to {   box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 10px rgba(0,68,204,.5); }
 }
 .register .btn {
-  padding: 14px 24px;
+  margin-left: 40px;
+  padding: 14px 44px;
   font-size: 24px;
   font-weight: 200;
   color: #fff; /* redeclare to override the `.jumbotron a` */
@@ -857,12 +910,12 @@ ul.pull-right li {
 }
 
 .header {
-  background: url('/images/stitches.png') repeat-x bottom left;
-  height: 190px;
+  /*background: url('/images/stitches.png') repeat-x bottom left;*/
+  height: 250px;
   padding-top: 20px;
 }
 
-.pacemaker_logo h1 {
+/*.pacemaker_logo h1 {
   font-size: 26px;
   color: rgb(215, 74, 72);
   text-shadow: rgba(0, 0, 0, 1) 1px 0px 2px;
@@ -872,16 +925,84 @@ ul.pull-right li {
   color: rgb(248, 148, 6);
   font-weight: bold;
 }
-.pacemaker_logo .logo {
-  margin: 0px 0 -10px 25px;
-  height: 145px;
+*/
 
-}
 
 .conf_logo {
-  margin-top:  -15px;
-  width: 180px;
+  /*margin-top:  -15px;*/
+  /*width: 180px;*/
 }
+
+.conf_logo .logo {
+  margin: 0 0 0 60px;
+  height: 145px;
+}
+
+.conf_about p {
+  padding: 20px 30px 10px 50px; 
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #666;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.conf_about .author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  font-style: italic;
+  color: #999;
+  float: right;
+  padding-right: 15px;
+}
+
+.conf_name {
+  background: #9a2928;
+  margin: 15px 2px 15px 0;
+  height: 100px;
+  padding: 0;
+}
+
+.conf_name h1 {
+  padding: 10px 20px 0 0;
+  color: white;
+  font-size: 45px;
+  text-align: right;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.conf_name p {
+  padding:0 20px 10px 0;
+  color: white;
+  font-size: 16px;
+  text-align: right;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.conf_details {
+  width: 355px;
+  margin: 15px 0 15px 3px;
+  background: #feda2f;
+  height: 100px;
+}
+
+
+.conf_details p {
+  padding: 10px 0 0 20px;
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
 
 .call_speakers {
   font-size: 80px;
@@ -894,7 +1015,6 @@ ul.pull-right li {
   margin-top: -5px;
   margin-right: 5px;
 }
-
 
 
 .speakers .about h3 {
@@ -967,10 +1087,52 @@ ul.pull-right li {
   border-left: 5px solid rgba(0, 136, 204, 0.2);
 }
 
-.about_conf_text {
-  padding-top: 10px;
-  font-size: 15px;
-  line-height: 26px;
+
+.speakers_info h3 {
   font-weight: normal;
-  color: #444;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.speakers_info .span4 {
+  margin-bottom: 20px;
+}
+
+
+
+
+#about .speakers {
+  padding: 0;
+}
+
+#about .speakers h3 {
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#about .speakers .span4 {
+  height: 110px;
+  margin: 5px;
+}
+
+#about .speakers .span4 p {
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+#about .speakers .span4 p i {
+  color: #999;
+}
+
+#about .speakers .span4 .author {
+  font-style: italic;
+  margin: 0;
+  padding-top: 0;
+  color: #666;
+}
+
+#about .speaker_pht {
+  width: 90px;
+  margin: 0 10px 0 0;
 }

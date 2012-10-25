@@ -1,7 +1,7 @@
 <div class="pages_nav">
   <nav class="navbar">
     <div class="container">
-      <ul class="nav">
+      <ul class="nav" id="main_menu">
           <li <%= settings.page == 'about' ? 'class="active"' : '' %> ><a href="about"><i class="icon-info-sign"></i> About</a></li>
           <li <%= settings.page == 'speakers' ? 'class="active"' : '' %> ><a href="speakers"><i class="icon-user"></i> Speakers</a></li>
           <% if settings.conferencies[settings.conf][:scheduled] %>
@@ -11,7 +11,7 @@
           <% if settings.conferencies[settings.conf][:vote] %>
             <li <%= settings.page == 'vote' ? 'class="active"' : '' %> ><a href="vote"><i class="icon-th-list"></i> Vote</a></li>
           <% end %>
-          <% unless settings.current_conf == settings.conf %>
+          <% if settings.current_conf != settings.conf && settings.conferencies[settings.conf][:report]%>
             <li <%= settings.page == 'report' ? 'class="active"' : '' %> ><a href="report"><i class="icon-pencil"></i> Report</a></li>
           <% end %>
       </ul>
