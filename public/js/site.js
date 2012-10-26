@@ -85,10 +85,10 @@ $(document).ready(function(){
   });
 
   // Speakers photos
-	$('.speakers .photo').adipoli({
-  	'startEffect' : 'grayscale',
-  	'hoverEffect' : 'normal'
-  });
+	// $('.speakers .photo').adipoli({
+ //  	'startEffect' : 'grayscale',
+ //  	'hoverEffect' : 'normal'
+ //  });
 
   // Ribbons
   $('.ribbon_inactive').adipoli({
