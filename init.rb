@@ -28,9 +28,10 @@ set :conferencies, {
     :location => 'Ivano-Frankivsk',
     :limit => 80,
     :scheduled => true,
-    :vote => true,
+    :vote => false,
     :report => false,
-    :reg_open => true #false
+    :reg_open => false
+    
   },
   'java-2012' => {
     :title  => 'PACEMAKER | Java Conference, 2012',
@@ -48,11 +49,11 @@ set :conferencies, {
     :date => '7 April, 2012',
     :reg_deadline => 'September 5th, 18:00',
     :location => 'Dnipropetrovsk',
-    :limit => 60,
+    :limit => 70,
     :scheduled => true,
     :vote => false,
     :report => true,
-    :reg_open => false
+    :reg_open => true #false
   }
 }
 

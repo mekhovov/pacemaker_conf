@@ -2,172 +2,263 @@
   <!-- About Section -->
   <div id="about" class="content_wrap">
 
-    <%= erb :"#{settings.conf}/_header"  %>
+    <%= erb :"#{settings.conf}/_header" %>
 
-  <div class="feature">
 
-  </div>
+    <div class='span8 speakers'>
+      
+      <h3>Speakers:</h3>
 
-  <div class="promo_text">
 
-    <div class="row speakers">
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-1.png"/>
-        </div>
-        <div class="span3">
-          <blockquote>
-            <p>NodeJS: <br>Inside Tactoom.com</p> 
-            <small><a href="speakers#Yura.Bogdanov">Yura Bogdanov</a></small>
-          </blockquote>
-        </div>
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-1.png"/>
+          <p>
+            NodeJS: Inside Tactoom.com
+          </p> 
+          <p class='author'>
+            <a href="/slides/<%= settings.conf %>/Yura_Bogdanov-nodejs_inside_tactoom.ppt" target="_blank"><i class="icon-download-alt"></i></a>
+            <a href="http://www.youtube.com/watch?v=aAdOtyrmD8A&feature=share&list=PL05CD8F236BAB68BA"  target="_blank"><i class="icon-film"></i></a>
+            <a href="speakers#Yura.Bogdanov">Yura Bogdanov</a>
+          </p>
+      </div>
+      
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-2.png"/>
-        </div>
-        <div class="span3">
-          <blockquote>
-            <p>How to test JavaScript with Jasmine</p> 
-            <small><a href="speakers#Vladimir.Vorobyov">Vladimir Vorobyov</a></small>
-          </blockquote>
-        </div>
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-2.png"/>
+          <p>
+            How to test JavaScript with Jasmine
+          </p> 
+          <p class='author'>
+            <a href="/slides/<%= settings.conf %>/Vladimir_Vorobyov-how_to_test_js_with_jasmine.pdf" target="_blank"><i class="icon-download-alt"></i></a>
+            <a href="http://www.youtube.com/watch?v=vBzjhgx-ChE&feature=share&list=PL05CD8F236BAB68BA" target="_blank"><i class="icon-film"></i></a>
+            <a href="speakers#Vladimir.Vorobyov">Vladimir Vorobyov</a>
+          </p>
+      </div>
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-3.jpg"/>
-        </div>
-        <div class="span3">
-          <blockquote><br>
-            <p>HSPS project: Sencha touch</p> 
-            <small><a href="speakers#Veronika Dudnik">Veronika Dudnik</a></small>
-          </blockquote>
-        </div>
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-3.jpg"/>
+          <p>
+            HSPS project: Sencha touch
+          </p> 
+          <p class='author'>
+            <a href="http://hsps-project-sencha-touch.heroku.com" target="_blank"><i class="icon-download-alt"></i></a>
+            <a href="http://www.youtube.com/watch?v=N9cWU4zSQY8&feature=share&list=PL05CD8F236BAB68BA" target="_blank"><i class="icon-film"></i></a>
+            <a href="speakers#Veronika Dudnik">Veronika Dudnik</a>
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-4.jpg"/>
+          <p>
+            Sinatra: Sing with me this ditty
+          </p> 
+          <p class='author'>
+            <a href="http://sinatra.pp.ua" target="_blank"><i class="icon-download-alt"></i></a>
+            <a href="http://www.youtube.com/watch?v=b_hD2zyjaRE&feature=share&list=PL05CD8F236BAB68BA" target="_blank"><i class="icon-film"></i></a>
+            <a href="speakers#Alex.Mekhovov">Alex Mekhovov</a>
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-5.png"/>
+          <p>
+            JS Application Architecture
+          </p> 
+          <p class='author'>
+            <a href="/slides/<%= settings.conf %>/Volodymyr_Pavlyuk-js_application_architecture_part_1_theory.pptx" target="_blank"><i class="icon-download-alt"></i></a>
+            <a href="http://www.youtube.com/watch?v=WcAzwrkwwBo&feature=share&list=PL05CD8F236BAB68BA" target="_blank"><i class="icon-film"></i></a>
+            <a href="speakers#Volodymyr.Pavlyuk">Volodymyr Pavlyuk</a>
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-6.jpg"/>
+          <p>
+            Scalable JS Applications
+          </p> 
+          <p class='author'>
+            <a href="/slides/<%= settings.conf %>/Dima_Tarasenko-scalable_js_applications_part_2_practice_and_samples.pptx" target="_blank"><i class="icon-download-alt"></i></a>
+            <a href="http://www.youtube.com/watch?v=PDky8KUjVq4&feature=share&list=PL05CD8F236BAB68BA" target="_blank"><i class="icon-film"></i></a>
+            <a href="speakers#Dima.Tarasenko">Dima Tarasenko</a>
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-7.png"/>
+          <p>
+            Mobile Web Application
+          </p> 
+          <p class='author'>
+            <a href="/slides/<%= settings.conf %>/Sergii_Kifiar_and_Anton Bodnar-mobile_web_application_case_study.pptx" target="_blank"><i class="icon-download-alt"></i></a>
+            <a href="http://www.youtube.com/watch?v=W821LdKnLRg&feature=share&list=PL05CD8F236BAB68BA" target="_blank"><i class="icon-film"></i></a>
+            <a href="speakers#Sergii.Kifiak">Sergii Kifiak</a>
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-8.png"/>
+          <p>
+            Mobile Web Application
+          </p> 
+          <p class='author'>
+            <div class="links">
+            <a href="/slides/<%= settings.conf %>/Sergii_Kifiar_and_Anton Bodnar-mobile_web_application_case_study.pptx" target="_blank"><i class="icon-download-alt"></i></a>
+            <a href="http://www.youtube.com/watch?v=W821LdKnLRg&feature=share&list=PL05CD8F236BAB68BA" target="_blank"><i class="icon-film"></i></a>
+          </div>
+            <a href="speakers#Anton.Bodnar">Anton Bodnar</a>
+          </p>
+      </div>
+
+
+      <h3>Lightning talks:</h3>
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/2-1.png"/>
+          <p>
+            Be prepared to changes
+          </p> 
+          <p class='author'>
+            <!-- <a href="/slides/<%= settings.conf %>/" target="_blank"><i class="icon-download-alt"></i></a> -->
+            <!-- <a href="#" target="_blank"><i class="icon-film"></i></a> -->
+            Dmytro Ovcharenko
+          </p>
+      </div> 
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/2-2.png"/>
+          <p>
+            About reusable layer in our project
+          </p> 
+          <p class='author'>
+            <!-- <a href="/slides/<%= settings.conf %>/" target="_blank"><i class="icon-download-alt"></i></a> -->
+            <!-- <a href="#" target="_blank"><i class="icon-film"></i></a> -->
+            Dmytro Nemoga
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/2-3.png"/>
+          <p>
+            About project
+          </p> 
+          <p class='author'>
+            <!-- <a href="/slides/<%= settings.conf %>/" target="_blank"><i class="icon-download-alt"></i></a> -->
+            <!-- <a href="#" target="_blank"><i class="icon-film"></i></a> -->
+            Andriy Zakharko
+          </p>
+      </div> 
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/2-4.png"/>
+          <p>
+            Technologies in our project
+          </p> 
+          <p class='author'>
+            <!-- <a href="/slides/<%= settings.conf %>/" target="_blank"><i class="icon-download-alt"></i></a> -->
+            <!-- <a href="#" target="_blank"><i class="icon-film"></i></a> -->
+            Vadym Fedorov
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/2-5.png"/>
+          <p>
+            Quick overview. Problem/Sovle example
+          </p> 
+          <p class='author'>
+            <!-- <a href="/slides/<%= settings.conf %>/" target="_blank"><i class="icon-download-alt"></i></a> -->
+            <!-- <a href="#" target="_blank"><i class="icon-film"></i></a> -->
+            Sergii Melnyk
+          </p>
+      </div>
+
+
+      <div class="span4">
+          <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/2-6.png"/>
+          <p>
+            Opposite side of Web project
+          </p> 
+          <p class='author'>
+            <!-- <a href="/slides/<%= settings.conf %>/" target="_blank"><i class="icon-download-alt"></i></a> -->
+            <!-- <a href="#" target="_blank"><i class="icon-film"></i></a> -->
+            Mykhailo Gaponov
+          </p>
+      </div>
+
+
 
     </div>
-    <div class="row speakers">
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-4.jpg"/>
-        </div>
-        <div class="span3">
-          <blockquote>
-            <p>Sinatra: <br>Sing with me this ditty</p> 
-            <small><a href="speakers#Alex.Mekhovov">Alex Mekhovov</a></small>
-          </blockquote>
-        </div>
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-5.png"/>
-        </div>
-        <div class="span3">
-          <blockquote><br>
-            <p>JS Application Architecture</p> 
-            <small><a href="speakers#Volodymyr.Pavlyuk">Volodymyr Pavlyuk</a></small>
-          </blockquote>
+
+
+
+
+
+    <div class='span4 speakers_info'>
+      <h3><br></h3>
+
+      <% if settings.page != 'register' && settings.conferencies[settings.conf][:reg_open]%>
+        <div class="span4 reg_button">
+            <div class="register">
+              <a href="register" class="btn btn-primary" >Register</a>
+              <br>
+              <small class="">&nbsp;*only for SoftServe folks</small>
+            </div> 
         </div>
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-6.jpg"/>
+        <div class="span4 reg_deadline">
+          <p>
+            <strong> 
+              Registration Deadline <br>
+            </strong>
+              <%= settings.conferencies[settings.conf][:reg_deadline]%> 
+          </p>
         </div>
-        <div class="span3">
-          <blockquote><br>
-            <p>Scalable JS Applications</p> 
-            <small><a href="speakers#Dima.Tarasenko">Dima Tarasenko</a></small>
-          </blockquote>
-        </div>
-
-      </div>
-      <div class="row speakers">
-
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-7.png"/>
-        </div>
-        <div class="span3">
-          <blockquote><br>
-            <p>Mobile Web Application</p> 
-            <small><a href="speakers#Sergii.Kifiak">Sergii Kifiak</a></small>
-          </blockquote>
-        </div>
-
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/1-8.png"/>
-        </div>
-        <div class="span3">
-          <blockquote><br>
-            <p>Mobile Web Application</p> 
-            <small><a href="speakers#Anton.Bodnar">Anton Bodnar</a></small>
-          </blockquote>
-        </div>
-
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-1.png"/>
-        </div>
-        <div class="span3 star_minutes">
-          <blockquote><br>
-            <p>Be prepared to changes</p> 
-            <small>Dmytro Ovcharenko</small>
-          </blockquote>
-        </div>
-
-      </div>
-
-      <div class="row speakers">
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-2.png"/>
-        </div>
-        <div class="span3 star_minutes">
-          <blockquote>
-            <p>About Reusable Layer in our project</p> 
-            <small>Dmytro Nemoga</small>
-          </blockquote>
-        </div>
-
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-3.png"/>
-        </div>
-        <div class="span3 star_minutes">
-          <blockquote><br>
-            <p>About project</p> 
-            <small>Andriy Zakharko</small>
-          </blockquote>
-        </div>
-
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-4.png"/>
-        </div>
-        <div class="span3 star_minutes">
-          <blockquote><br>
-            <p>Technologies in our project</p> 
-            <small>Vadym Fedorov</small>
-          </blockquote>
-        </div>
-
-      </div>
-      <div class="row speakers">
         
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-5.png"/>
-        </div>
-        <div class="span3 star_minutes">
-          <blockquote>
-            <p>Quick overview. Problem/Sovle example</p> 
-            <small>Sergii Melnyk</small>
-          </blockquote>
+        <div class="span4 reg_covers">
+          <p>
+            <small>SoftServe covers transportation
+            and lodging expenses</small>
+          </p>
         </div>
 
-        <div class="span1">
-          <img class="img-rounded" src="/images/<%= settings.conf %>/photos/2-6.png"/>
-        </div>
-        <div class="span3 star_minutes">
-          <blockquote><br>
-            <p>Opposite side of Web project</p> 
-            <small>Mykhailo Gaponov</small>
-          </blockquote>
-        </div>
+      <% end %>
+
+
+
+     <!--  <div class="span4 info_pht_vid">
+        <p>
+          Photos: 
+          <a href="http://www.facebook.com/media/set/?set=a.216194838490149.45081.210154085760891&type=3"  target="_blank"> <img class="pht_vid" src="/images/ico_photos.png"></img> </a>
+          Videos:
+          <a href="http://www.youtube.com/playlist?list=PL05CD8F236BAB68BA" target="_blank"> <img class="pht_vid" src="/images/ico_videos.png"></img></a>
+        </p>
+      </div>
+       -->
+      <div class="span4 info_follow_us">
+          <hr>
+          <p>
+            Follow us: 
+            <a href="https://twitter.com/#!/pacemaker_conf"  target="_blank"><img src="/images/twitter.png" class="twitter"></img></a>
+            <a href="http://www.facebook.com/PacemakerJs"  target="_blank"><img src="/images/facebook.png" class="twitter"></img></a>
+          </p>
+      </div>
 
     </div>
 
-   
-    </div>
-  </div>
+
+
 </div>
 
 
