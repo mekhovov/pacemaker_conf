@@ -30,7 +30,7 @@ set :conferencies, {
     :scheduled => true,
     :vote => false,
     :report => false,
-    :reg_open => false
+    :reg_open =>  true #false
     
   },
   'java-2012' => {

@@ -87,7 +87,11 @@
           </p>
       </div>   
 
+    </div>
 
+    
+
+    <div class='span4 speakers lightning_talks'>
 
       <h3>Lightning talks:</h3>
 
@@ -178,17 +182,10 @@
 
 
 
-    <div class='span4 speakers_info'>
-      <h3><br></h3>
+    <div class='span12'> <hr> </div> 
 
       <% if settings.page != 'register' && settings.conferencies[settings.conf][:reg_open]%>
-        <div class="span4 reg_button">
-            <div class="register">
-              <a href="register" class="btn btn-primary" >Register</a>
-              <br>
-              <small class="">&nbsp;*only for SoftServe folks</small>
-            </div> 
-        </div>
+        
 
         <div class="span4 reg_deadline">
           <p>
@@ -199,29 +196,29 @@
           </p>
         </div>
         
-        <div class="span4 reg_covers">
-          <p>
-            <small>SoftServe covers transportation
-            and lodging expenses</small>
-          </p>
+        <div class="span4 reg_button">
+            <div class="register">
+              <a href="register" class="btn btn-primary" >Register</a>
+              <br>
+              <small class="">&nbsp;*only for SoftServe folks</small>
+            </div> 
         </div>
-
+        
       <% end %>
 
 
 
-      <div class="span4 info_pht_vid">
+      <div class="span8 info_pht_vid">
         <p>
           Photos: 
           <a href="http://www.facebook.com/media/set/?set=a.270956206347345.61502.210154085760891&type=3"  target="_blank"> <img class="pht_vid" src="/images/ico_photos.png"></img> </a>
           Videos:
           <a href="http://www.youtube.com/playlist?list=PLD91161618C0488B6" target="_blank"> <img class="pht_vid" src="/images/ico_videos.png"></img></a>
         </p>
-        <p><small>..we are processing video</small></p>
+        <!-- <p><small>..we are processing video</small></p> -->
       </div>
       
       <div class="span4 info_follow_us">
-          <hr>
           <p>
             Follow us: 
             <a href="https://twitter.com/#!/pacemaker_conf"  target="_blank"><img src="/images/twitter.png" class="twitter"></img></a>
@@ -229,7 +226,6 @@
           </p>
       </div>
 
-    </div>
 
 
 

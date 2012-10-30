@@ -937,7 +937,14 @@ ul.pull-right li {
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
 }
 
+.register {
+  padding-top: 15px;
+  /*padding-left: 200px;*/
+}
 
+.reg_button, .reg_deadline, .info_pht_vid {
+  padding-bottom: 25px;
+}
 
 .reg_deadline p {
   text-align: center;
@@ -959,6 +966,7 @@ ul.pull-right li {
 .info_follow_us p {
   margin-top: 0;
   text-align: right;
+  /*text-align: center;*/
   padding-top: 10px;
   padding-right: 30px;
   font-size: 14px;
@@ -969,7 +977,8 @@ ul.pull-right li {
 }
 
 .info_pht_vid p {
-  text-align: right;
+  /*text-align: right;*/
+  text-align: left;
   padding-top: 20px;
   padding-right: 30px;
   font-size: 16px;
@@ -1172,6 +1181,7 @@ footer img {
   right: -25px;
 }
 
+
 /*#about blockquote {
   border-left: 5px solid rgba(0, 204, 136, 0.3);
 }*/
@@ -1228,4 +1238,12 @@ footer img {
 #about .speaker_pht {
   width: 90px;
   margin: 0 10px 0 0;
+}
+
+
+.bottom_red_line {
+  margin: 10px 0;
+  padding: 0 40px 0 0 ;
+  background-color: #9a2928;
+  height: 8px;
 }
