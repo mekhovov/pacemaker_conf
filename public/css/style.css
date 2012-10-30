@@ -2,7 +2,8 @@
 /* images overrides
 ------------------------------------------------------------------------------*/
 body {
-	background:#dcdcdc url('/images/linen_lite.png') repeat fixed;
+	/*background:#dcdcdc url('/images/linen_lite.png') repeat fixed;*/
+  background:#dcdcdc url('/images/bg-linen.png') repeat fixed;
    font-size: 13px;
    line-height: 18px;
 }
@@ -20,7 +21,8 @@ body {
 }
 
 body#error {
-	background:#efefef url('/images/linen_lite.png') center top repeat;
+	/*background:#efefef url('/images/linen_lite.png') center top repeat;*/
+  background:#efefef url('/images/bg-linen.png') center top repeat;
 }
 
 .adipoli-wrapper > div, .adipoli-before > div, .adipoli-after > div {
@@ -116,7 +118,8 @@ h4 {
     border-radius:16px;
     background:#fff;
     border:1px solid #ddd;
-    border-color:#ddd #d0d0d0 #bbb;
+    /*border-color:#ddd #d0d0d0 #bbb;*/
+    border-color: #aaa #a0a0a0 #aaa;
     line-height:16px;
     text-align:center;
     min-width:60px;
@@ -415,6 +418,10 @@ h1.ss_logo {
   width: 120px;
 }
 
+#speakers .photo .links{
+  text-align: right;
+  padding: 1px 15px;
+}
 #speakers .about {
   width: 425px;
 }
@@ -998,11 +1005,12 @@ footer .social {
 }
 footer {
   text-align: right;
+  color: #666;
 }
 footer a {
   margin: 0;
   padding: 0;
-  color: #666;
+  color: #555;
 }
 footer img {
   width: 24px;
@@ -1143,9 +1151,23 @@ footer img {
 .speakers .topic {
   position: relative;
   min-height: 100px;
-  background-color: rgba(240, 240, 240, 0.2);
+  background-color: rgba(210, 210, 210, 0.4);
   color: #555;
-  border-color: rgba(240, 240, 240, 0.8);
+  /*border-color: rgba(210, 210, 210, 0.8);*/
+  border: none;
+  -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  -o-box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+.box-caret {
+  margin-left: -36px;
+  position: absolute;
+  top: 15px;
+  border-bottom: 18px solid transparent;
+  border-top: 18px solid transparent;
+  border-right: 23px solid rgb(235, 235, 235);
+  /*bottom: -30px;*/
 }
 
 .speakers .topic .label {
@@ -1155,14 +1177,15 @@ footer img {
   padding: 3px 7px;
   font-size: 12px;
   font-weight: normal;
-  background-color: #f5f5f5;
-  border: 1px solid #eee;
+  background-color: #e5e5e5;
+  border: 1px solid rgba(210, 210, 210, 0.8);
   color: #9da0a4;
   -webkit-border-radius: 4px 0 4px 0;
   -moz-border-radius: 4px 0 4px 0;
   border-radius: 4px 0 4px 0;
   text-shadow:none;
 }
+
 
 .speakers .about .links {
   position: relative;
@@ -1247,3 +1270,45 @@ footer img {
   background-color: #9a2928;
   height: 8px;
 }
+
+.content_bottom {
+  background: url(/images/g-background-noise.gif);   /*g-background-noise-darker*/
+  border-top: 1px dashed #BBB;
+  padding: 15px 40px 0 0;
+  margin: 10px 0 0 0;
+}
+
+
+
+
+
+
+/*
+#about .speakers .span4:hover .speaker_pht {
+  filter:none;
+  -webkit-filter: none;
+
+}
+#about .speakers .speaker_pht {
+  -webkit-filter:grayscale(100%);
+}*/
+#about .speakers .span4:hover a {
+  color: #0088cc;
+  /*color: red;*/
+}
+
+#about .speakers .span4:hover a i{
+  color: black;
+  /*color: red;*/
+}
+#about .speakers .span4 i, #about .speakers .span4 a {
+  color:#666;
+  -webkit-transition:all 0.3s ease-in-out;
+  -moz-transition:all 0.3s ease-in-out;
+  -ms-transition:all 0.3s ease-in-out;
+  -o-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+}
+
+
+
