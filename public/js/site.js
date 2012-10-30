@@ -78,11 +78,11 @@ function update_tweets () {
 $(document).ready(function(){
 
   // Slider
-  $('#da-slider').cslider({
-    autoplay  : true,
-    interval  : 6000,
-    bgincrement : 0
-  });
+  // $('#da-slider').cslider({
+  //   autoplay  : true,
+  //   interval  : 6000,
+  //   bgincrement : 0
+  // });
 
   // Speakers photos
 	// $('.speakers .photo').adipoli({
