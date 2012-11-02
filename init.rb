@@ -53,7 +53,7 @@ set :conferencies, {
     :scheduled => true,
     :vote => false,
     :report => true,
-    :reg_open => true #false
+    :reg_open => false
   }
 }
 

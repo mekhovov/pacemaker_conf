@@ -1004,6 +1004,10 @@ ul.pull-right li {
   color: #666;
 }
 
+.ss_logo_footer {
+  /*height: 35px;*/
+  /*width: auto;*/
+}
 footer .social {
   float: left;
   /*width: 100px;*/
@@ -1017,7 +1021,7 @@ footer a {
   padding: 0;
   color: #555;
 }
-footer img {
+footer .social img {
   max-width: 24px;
   /*height: 24px;*/
   margin-top: -8px;
