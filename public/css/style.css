@@ -245,7 +245,7 @@ h4 {
 
 }
 #register {
-  height: 2200px;
+  /*height: 2200px;*/
 }
 
 #register .header {
@@ -1323,3 +1323,35 @@ footer .social img {
 
 
 
+
+
+/* ----------- REGISTER FORM -------------- */
+
+
+#register .fieldcontainer .rowleft {
+  width: auto !important;
+}
+#register .rowleft .class123-label {
+  float: left !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  width: 160px !important;
+  padding-top: 5px !important;
+  text-align: right !important;
+  display: block !important;
+  margin-bottom: 5px !important;
+}
+
+#register .thebuttons input {
+   margin: 35px 0 40px 155px !important;
+   width: 90px !important;
+   height: 35px !important;
+}
+
+#register .class123-firstname, #register .class123-lastname {
+  width: 154px !important;
+}
+#register select {
+height: 30px !important;
+line-height: 30px !important;
+}
