@@ -13,7 +13,7 @@ set :conferencies, {
   'ops-2012' => {
     :title  => 'PACEMAKER | OPS Conference, 2012',
     :date => '1 December, 2012',
-    :reg_deadline => 'September 5th, 18:00',
+    :reg_deadline => 'November 16th, 18:00',
     :location => 'Rivne',
     :limit => 50,
     :scheduled => false,
