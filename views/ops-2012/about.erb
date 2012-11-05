@@ -96,20 +96,12 @@
             <strong> 
               Registration will start <br>
             </strong>
-              November 1-st
+              November 5
           </p>
         </div>
 
 
       <% if settings.page != 'register' && settings.conferencies[settings.conf][:reg_open]%>
-        <div class="span4 reg_button">
-            <div class="register">
-              <a href="register" class="btn btn-primary" >Register</a>
-              <br>
-              <small class="">&nbsp;*only for SoftServe folks</small>
-            </div> 
-        </div>
-
         <div class="span4 reg_deadline">
           <p>
             <strong> 
@@ -119,12 +111,21 @@
           </p>
         </div>
         
-        <div class="span4 reg_covers">
+        <div class="span4 reg_button">
+            <div class="register">
+              <a href="register" class="btn btn-primary" >Register</a>
+              <br>
+              <small class="">&nbsp;*only for SoftServe folks</small>
+            </div> 
+        </div>
+
+        
+        <!-- <div class="span4 reg_covers">
           <p>
             <small>SoftServe covers transportation
             and lodging expenses</small>
           </p>
-        </div>
+        </div> -->
 
       <% end %>
 
