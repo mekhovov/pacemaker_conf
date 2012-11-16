@@ -19,7 +19,7 @@ set :conferencies, {
     :scheduled => false,
     :vote => false,
     :report => false,
-    :reg_open => true
+    :reg_open => false
   },
   'lamp-2012' => {
     :title  => 'PACEMAKER | LAMP Conference, 2012',
