@@ -16,7 +16,7 @@ set :conferencies, {
     :reg_deadline => 'November 16th, 13:00',
     :location => 'Rivne',
     :limit => 50,
-    :scheduled => false,
+    :scheduled => true,
     :vote => false,
     :report => false,
     :reg_open => false
