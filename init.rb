@@ -6,16 +6,29 @@ require 'haml'
 # require 'awesome_print'   # development mode
 
 
-set :current_conf, 'ops-2012'
+set :current_conf, '.net-2013'
 set :planned_conf, []
 
 set :conferencies, {
+  '.net-2013' => {
+    :title  => 'PACEMAKER |  .Net Conference, 2013',
+    :date => '3 Marth, 2013',
+    :reg_deadline => 'February 16th, 13:00',
+    :location => 'Lviv',
+    :limit => 70,
+    :speakers => false,
+    :scheduled => false,
+    :vote => false,
+    :report => false,
+    :reg_open => false
+  },
   'ops-2012' => {
     :title  => 'PACEMAKER | OPS Conference, 2012',
     :date => '1 December, 2012',
     :reg_deadline => 'November 16th, 13:00',
     :location => 'Rivne',
     :limit => 50,
+    :speakers => true,
     :scheduled => true,
     :vote => false,
     :report => false,
@@ -27,6 +40,7 @@ set :conferencies, {
     :reg_deadline => 'September 5th, 18:00',
     :location => 'Ivano-Frankivsk',
     :limit => 80,
+    :speakers => true,
     :scheduled => true,
     :vote => false,
     :report => false,
@@ -39,6 +53,7 @@ set :conferencies, {
     :reg_deadline => 'September 5th, 18:00',
     :location => 'Chernivtsi',
     :limit => 75,
+    :speakers => true,
     :scheduled => true,
     :vote => false,
     :report => true,
@@ -50,6 +65,7 @@ set :conferencies, {
     :reg_deadline => 'September 5th, 18:00',
     :location => 'Dnipropetrovsk',
     :limit => 70,
+    :speakers => true,
     :scheduled => true,
     :vote => false,
     :report => true,

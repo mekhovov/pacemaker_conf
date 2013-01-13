@@ -1,0 +1,127 @@
+
+  <!-- About Section -->
+  <div id="about" class="content_wrap">
+
+    <%= erb :"#{settings.conf}/_header" %>
+
+
+
+    <div class='span8 speakers'>
+      <br><br><br>
+      <!-- <h3>Speakers:</h3> -->
+      <div class="span4">
+        <br>
+      </div>
+
+      <div class="span4">
+        
+           <img class="speaker_pht pull-left" src="/images/call_speakers.png"/>
+           <p>
+            We are looking for cool speakers
+           </p> 
+          <br>
+           <p class='author'>
+            <a href="mailto:obaranov@softserveinc.com, dovchar@softserveinc.com, omekh@softserveinc.com">Perhaps You?</a>
+           </p>
+
+       </div>
+
+
+     </div>
+
+
+     <div class='span8 speakers'>
+      <br><br>
+     </div>
+
+    
+
+    <div class='span4 speakers lightning_talks'>
+
+      <h3>&nbsp;</h3>
+
+      
+
+    </div>
+
+
+
+
+
+
+
+    <div class='span12 content_bottom'> 
+
+        <div class="span8 reg_deadline">
+          <p>
+            <strong> 
+              Registration will start <br>
+            </strong>
+              February
+          </p>
+        </div>
+
+
+      <% if settings.page != 'register' && settings.conferencies[settings.conf][:reg_open]%>
+        <div class="span4 reg_deadline">
+          <p>
+            <strong> 
+              Registration Deadline <br>
+            </strong>
+              <%= settings.conferencies[settings.conf][:reg_deadline]%> 
+          </p>
+        </div>
+        
+        <div class="span4 reg_button">
+            <div class="register">
+              <a href="register" class="btn btn-primary" >Register</a>
+              <br>
+              <small class="">&nbsp;*only for SoftServe folks</small>
+            </div> 
+        </div>
+
+        
+        <!-- <div class="span4 reg_covers">
+          <p>
+            <small>SoftServe covers transportation
+            and lodging expenses</small>
+          </p>
+        </div> -->
+
+      <% end %>
+
+
+
+      <!-- <div class="span8 info_pht_vid">
+        <p>
+          Photos: 
+          <a href="http://www.facebook.com/media/set/?set=a.309572945819004.72247.210154085760891&type=1"  target="_blank"> <img class="pht_vid" src="/images/ico_photos.png"></img> </a>
+          Videos:
+          <a href="http://www.youtube.com/playlist?list=PLxKvNsRITEtkX3bwNp8dCs-sQruuxXz7c"  target="_blank"> <img class="pht_vid" src="/images/ico_videos.png"></img></a>
+        </p>
+      </div>  -->
+
+
+      <!-- <div class="span8 reg_deadline">
+          <p>
+            Registration is closed.
+          </p>
+        </div> -->
+      
+      <div class="span3 info_follow_us">
+          <p>
+            Follow us: 
+            <a href="https://twitter.com/#!/pacemaker_conf"  target="_blank"><img src="/images/twitter.png" class="twitter"></img></a>
+            <a href="http://www.facebook.com/PacemakerJs"  target="_blank"><img src="/images/facebook.png" class="twitter"></img></a>
+            <br><br>
+          </p>
+      </div>
+
+    </div>
+
+
+
+</div>
+
+
+
