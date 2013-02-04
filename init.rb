@@ -11,7 +11,7 @@ set :planned_conf, []
 
 set :conferencies, {
   '.net-2013' => {
-    :title  => 'PACEMAKER |  .Net Conference, 2013',
+    :title  => 'PACEMAKER |  .NET Conference, 2013',
     :date => '2 March, 2013',
     :reg_deadline => 'February 15th, 13:00',
     :location => 'Lviv',
