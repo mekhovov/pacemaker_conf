@@ -20,7 +20,7 @@ set :conferencies, {
     :scheduled => false,
     :vote => false,
     :report => false,
-    :reg_open => true
+    :reg_open => false
   },
   'ops-2012' => {
     :title  => 'PACEMAKER | OPS Conference, 2012',
