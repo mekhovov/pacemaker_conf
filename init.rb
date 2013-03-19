@@ -6,10 +6,22 @@ require 'haml'
 # require 'awesome_print'   # development mode
 
 
-set :current_conf, '.net-2013'
+set :current_conf, 'java-2013'
 set :planned_conf, []
 
 set :conferencies, {
+  'java-2013' => {
+    :title  => 'PACEMAKER |  Java Conference, 2013',
+    :date => '20 April, 2013',
+    :reg_deadline => 'April 1st, 13:00',
+    :location => 'Dnipropetrovsk',
+    :limit => 80,
+    :speakers => false,
+    :scheduled => false,
+    :vote => false,
+    :report => false,
+    :reg_open => false
+  },
   '.net-2013' => {
     :title  => 'PACEMAKER |  .NET Conference, 2013',
     :date => '2 March, 2013',

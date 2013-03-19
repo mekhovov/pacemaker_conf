@@ -1,0 +1,31 @@
+<div class='header'>
+
+  <div class='span8 conf_about'>
+    <p>
+      It takes all the running you can do, to keep in the same place. If you want to get somewhere else, you must run at least twice as fast as that!<br>
+      <span class="author">-Red Queen </span>
+    </p> 
+  </div>
+
+  <div class='span4 conf_logo'>
+      <img class="logo" src="/images/pacemaker_logo.png" />
+  </div>
+
+
+  <div class='span8 conf_name'>
+    <h1> Pacemaker:<%= settings.conferencies[settings.conf][:title].gsub('PACEMAKER | ', '').gsub(/Conference, (\d)*/, '') %> </h1>
+    <p> made by “SoftServers for SoftServers” </p>
+  </div>
+
+  <div class='span4 conf_details'>
+    <p>
+      This time <strong> <%= settings.conferencies[settings.conf][:limit] %> lucky people </strong> <br>
+      will meet on <strong> <%= settings.conferencies[settings.conf][:date] %> </strong> <br>
+      in a beautiful city of <strong> <%= settings.conferencies[settings.conf][:location] %> </strong> <br>
+    </p>
+  </div>
+
+
+</div>
+
+
