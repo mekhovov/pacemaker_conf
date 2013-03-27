@@ -16,7 +16,7 @@ set :conferencies, {
     :reg_deadline => 'April 1st, 13:00',
     :location => 'Dnipropetrovsk',
     :limit => 70,
-    :speakers => false,
+    :speakers => true,
     :scheduled => false,
     :vote => false,
     :report => false,
