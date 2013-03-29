@@ -13,14 +13,14 @@ set :conferencies, {
   'java-2013' => {
     :title  => 'PACEMAKER |  Java Conference, 2013',
     :date => '20 April, 2013',
-    :reg_deadline => 'April 1st, 13:00',
+    :reg_deadline => 'April 4th, 13:00',
     :location => 'Dnipropetrovsk',
     :limit => 70,
     :speakers => true,
     :scheduled => false,
     :vote => false,
     :report => false,
-    :reg_open => false
+    :reg_open => true
   },
   '.net-2013' => {
     :title  => 'PACEMAKER |  .NET Conference, 2013',
