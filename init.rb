@@ -17,7 +17,7 @@ set :conferencies, {
     :location => 'Dnipropetrovsk',
     :limit => 70,
     :speakers => true,
-    :scheduled => false,
+    :scheduled => true,
     :vote => false,
     :report => false,
     :reg_open => false
