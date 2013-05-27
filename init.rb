@@ -6,10 +6,22 @@ require 'haml'
 # require 'awesome_print'   # development mode
 
 
-set :current_conf, 'java-2013'
+set :current_conf, 'lamp-2013'
 set :planned_conf, []
 
 set :conferencies, {
+  'lamp-2013' => {
+    :title  => 'PACEMAKER |  LAMP Conference, 2013',
+    :date => '6 July, 2013',
+    :reg_deadline => 'July 15th, 13:00',
+    :location => 'Chernivtsi',
+    :limit => 50,
+    :speakers => false,
+    :scheduled => false,
+    :vote => false,
+    :report => false,
+    :reg_open => false
+  },
   'java-2013' => {
     :title  => 'PACEMAKER |  Java Conference, 2013',
     :date => '20 April, 2013',
@@ -35,7 +47,7 @@ set :conferencies, {
     :reg_open => false
   },
   'ops-2012' => {
-    :title  => 'PACEMAKER | OPS Conference, 2012',
+    :title  => 'PACEMAKER |  OPS Conference, 2012',
     :date => '1 December, 2012',
     :reg_deadline => 'November 16th, 13:00',
     :location => 'Rivne',
@@ -47,7 +59,7 @@ set :conferencies, {
     :reg_open => false
   },
   'lamp-2012' => {
-    :title  => 'PACEMAKER | LAMP Conference, 2012',
+    :title  => 'PACEMAKER |  LAMP Conference, 2012',
     :date => '22 September, 2012',
     :reg_deadline => 'September 5th, 18:00',
     :location => 'Ivano-Frankivsk',
@@ -60,7 +72,7 @@ set :conferencies, {
     
   },
   'java-2012' => {
-    :title  => 'PACEMAKER | Java Conference, 2012',
+    :title  => 'PACEMAKER |  Java Conference, 2012',
     :date => '4 August, 2012',
     :reg_deadline => 'September 5th, 18:00',
     :location => 'Chernivtsi',
@@ -72,7 +84,7 @@ set :conferencies, {
     :reg_open => false
   },
   'js-2012' => {
-    :title  => 'PACEMAKER | JS Conference, 2012',
+    :title  => 'PACEMAKER |  JS Conference, 2012',
     :date => '7 April, 2012',
     :reg_deadline => 'September 5th, 18:00',
     :location => 'Dnipropetrovsk',
