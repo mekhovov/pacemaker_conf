@@ -16,7 +16,7 @@ set :conferencies, {
     :reg_deadline => 'July 15th, 13:00',
     :location => 'Chernivtsi',
     :limit => 50,
-    :speakers => false,
+    :speakers => true,
     :scheduled => false,
     :vote => false,
     :report => false,
