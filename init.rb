@@ -13,14 +13,14 @@ set :conferencies, {
   'lamp-2013' => {
     :title  => 'PACEMAKER |  LAMP Conference, 2013',
     :date => '6 July, 2013',
-    :reg_deadline => 'July 15th, 13:00',
+    :reg_deadline => 'June 15th, 13:00',
     :location => 'Chernivtsi',
     :limit => 50,
     :speakers => true,
     :scheduled => false,
     :vote => false,
     :report => false,
-    :reg_open => false
+    :reg_open => true
   },
   'java-2013' => {
     :title  => 'PACEMAKER |  Java Conference, 2013',
