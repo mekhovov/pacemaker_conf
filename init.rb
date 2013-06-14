@@ -20,7 +20,7 @@ set :conferencies, {
     :scheduled => false,
     :vote => false,
     :report => false,
-    :reg_open => true
+    :reg_open => false
   },
   'java-2013' => {
     :title  => 'PACEMAKER |  Java Conference, 2013',
