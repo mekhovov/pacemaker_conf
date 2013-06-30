@@ -17,7 +17,7 @@ set :conferencies, {
     :location => 'Chernivtsi',
     :limit => 50,
     :speakers => true,
-    :scheduled => false,
+    :scheduled => true,
     :vote => false,
     :report => false,
     :reg_open => false
