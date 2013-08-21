@@ -1355,3 +1355,9 @@ footer .social img {
 height: 30px !important;
 line-height: 30px !important;
 }
+
+.poster {
+  margin-top: -10px;
+  margin-left:  -20px;
+  width: 620px;
+}
