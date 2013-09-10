@@ -17,10 +17,10 @@ set :conferencies, {
     :location => 'Lviv',
     :limit => 60,
     :speakers => true,
-    :scheduled => false,
+    :scheduled => true,
     :vote => false,
     :report => false,
-    :reg_open => true
+    :reg_open => false
   },
   'lamp-2013' => {
     :title  => 'PACEMAKER |  LAMP Conference, 2013',
