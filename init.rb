@@ -15,7 +15,7 @@ set :conferencies, {
     :date => '28 September, 2013',
     :reg_deadline => 'September 10th, 12:00',
     :location => 'Lviv',
-    :limit => 60,
+    :limit => 75,
     :speakers => true,
     :scheduled => true,
     :vote => false,
