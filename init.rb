@@ -5,7 +5,6 @@ require 'haml'
 
 # require 'awesome_print'   # development mode
 
-
 set :current_conf, 'data-2013'
 set :planned_conf, []
 
@@ -154,8 +153,8 @@ end
 
 get '/:conf/register' do |conf|
   if settings.conferencies[conf][:reg_open]
-    set :conf, conf
-    set :page, 'register'
+    settings.set :conf, conf
+    settings.set :page, 'register'
     erb :"#{conf}/register"
   else
     redirect to("#{conf}/about")
@@ -163,8 +162,8 @@ get '/:conf/register' do |conf|
 end
 
 get '/:conf/:page' do |conf, page|
-  set :conf, conf
-  set :page, page
+  settings.set :conf, conf
+  settings.set :page, page
   erb :"#{conf}/#{page}"
 end
 
