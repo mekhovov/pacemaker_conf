@@ -12,14 +12,14 @@ set :conferencies, {
  'cloud-2013' => {
     :title  => 'PACEMAKER |  Cloud Conference, 2013',
     :date => '30 November, 2013',
-    :reg_deadline => 'October 22nd, 15:00',
+    :reg_deadline => 'November 1st, 15:00',
     :location => 'Dnipropetrovsk',
     :limit => 70,
     :speakers => true,
     :scheduled => false,
     :vote => false,
     :report => false,
-    :reg_open => false
+    :reg_open => true
   },
   'data-2013' => {
     :title  => 'PACEMAKER |  Data Conference, 2013',
