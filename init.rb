@@ -19,7 +19,7 @@ set :conferencies, {
     :scheduled => false,
     :vote => false,
     :report => false,
-    :reg_open => true
+    :reg_open => false
   },
   'data-2013' => {
     :title  => 'PACEMAKER |  Data Conference, 2013',
