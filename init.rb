@@ -5,10 +5,22 @@ require 'haml'
 
 # require 'awesome_print'   # development mode
 
-set :current_conf, 'cloud-2013'
+set :current_conf, 'mobility-2014'
 set :planned_conf, []
 
 set :conferencies, {
+'mobility-2014' => {
+    :title  => 'PACEMAKER |  Mobility Conference, 2014',
+    :date => '15 March, 2014',
+    :reg_deadline => 'March 1st, 15:00',
+    :location => 'Lviv',
+    :limit => 70,
+    :speakers => false,
+    :scheduled => false,
+    :vote => false,
+    :report => false,
+    :reg_open => true
+  },
  'cloud-2013' => {
     :title  => 'PACEMAKER |  Cloud Conference, 2013',
     :date => '30 November, 2013',
