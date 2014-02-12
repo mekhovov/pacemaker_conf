@@ -15,7 +15,7 @@ set :conferencies, {
     :reg_deadline => 'March 1st, 15:00',
     :location => 'Lviv',
     :limit => 70,
-    :speakers => false,
+    :speakers => true,
     :scheduled => false,
     :vote => false,
     :report => false,
