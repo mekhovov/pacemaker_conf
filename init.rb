@@ -12,7 +12,7 @@ set :conferencies, {
 'mobility-2014' => {
     :title  => 'PACEMAKER |  Mobility Conference, 2014',
     :date => '15 March, 2014',
-    :reg_deadline => 'March 1st, 15:00',
+    :reg_deadline => 'March 7th, 15:00',
     :location => 'Lviv',
     :limit => 70,
     :speakers => true,
