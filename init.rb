@@ -10,8 +10,8 @@ set :planned_conf, []
 
 set :conferencies, {
 'mobility-2014' => {
-    :title  => 'PACEMAKER |  Mobility Conference, 2014',
-    :date => '15 March, 2014',
+    :title  => '[SUSPENDED] PACEMAKER |  Mobility Conference, 2014',
+    :date => 'To be anounced in April',
     :reg_deadline => 'March 7th, 15:00',
     :location => 'Lviv',
     :limit => 70,
@@ -19,7 +19,7 @@ set :conferencies, {
     :scheduled => false,
     :vote => false,
     :report => false,
-    :reg_open => true
+    :reg_open => false
   },
  'cloud-2013' => {
     :title  => 'PACEMAKER |  Cloud Conference, 2013',
