@@ -11,7 +11,7 @@ set :planned_conf, []
 set :conferencies, {
 'mobility-2014' => {
     :title  => 'PACEMAKER |  Mobility Conference, 2014',
-    :date => 'To be anounced in April',
+    :date => 'July 5th',
     :reg_deadline => 'June 27th, 15:00',
     :location => 'Lviv',
     :limit => 70,
