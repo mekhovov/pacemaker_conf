@@ -19,7 +19,7 @@ set :conferencies, {
     :scheduled => false,
     :vote => false,
     :report => false,
-    :reg_open => true
+    :reg_open => false
   },
  'cloud-2013' => {
     :title  => 'PACEMAKER |  Cloud Conference, 2013',
