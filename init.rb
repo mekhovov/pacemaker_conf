@@ -9,6 +9,18 @@ set :current_conf, 'mobility-2014'
 set :planned_conf, []
 
 set :conferencies, {
+'WebUI-2014' => {
+    :title  => 'PACEMAKER |  WebUI Conference, 2014',
+    :date => 'September 27th',
+    :reg_deadline => 'September 5th, 15:00',
+    :location => 'Dnipropetrovsk',
+    :limit => 70,
+    :speakers => false,
+    :scheduled => false,
+    :vote => false,
+    :report => false,
+    :reg_open => true
+  },
 'mobility-2014' => {
     :title  => 'PACEMAKER |  Mobility Conference, 2014',
     :date => 'July 5th',
