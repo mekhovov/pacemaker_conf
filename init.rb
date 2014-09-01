@@ -5,7 +5,7 @@ require 'haml'
 
 # require 'awesome_print'   # development mode
 
-set :current_conf, 'mobility-2014'
+set :current_conf, 'WebUI-2014'
 set :planned_conf, []
 
 set :conferencies, {
@@ -15,7 +15,7 @@ set :conferencies, {
     :reg_deadline => 'September 5th, 15:00',
     :location => 'Dnipropetrovsk',
     :limit => 70,
-    :speakers => false,
+    :speakers => true,
     :scheduled => false,
     :vote => false,
     :report => false,
