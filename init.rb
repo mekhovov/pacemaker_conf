@@ -30,7 +30,7 @@ set :conferencies, {
     :speakers => true,
     :scheduled => true,
     :vote => false,
-    :report => false,
+    :report => true,
     :reg_open => false
   },
  'cloud-2013' => {
