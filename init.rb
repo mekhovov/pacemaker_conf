@@ -5,10 +5,22 @@ require 'haml'
 
 # require 'awesome_print'   # development mode
 
-set :current_conf, 'WebUI-2014'
+set :current_conf, '.net-2014'
 set :planned_conf, []
 
 set :conferencies, {
+'.net-2014' => {
+    :title  => 'PACEMAKER | .net Conference, 2014',
+    :date => '2014',
+    :reg_deadline => '2014',
+    :location => 'Ukraine',
+    :limit => 70,
+    :speakers => true,
+    :scheduled => true,
+    :vote => false,
+    :report => false,
+    :reg_open => true
+  },
 'WebUI-2014' => {
     :title  => 'PACEMAKER |  WebUI Conference, 2014',
     :date => 'September 27th',
