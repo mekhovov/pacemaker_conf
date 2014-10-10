@@ -18,8 +18,8 @@ set :conferencies, {
     :speakers => true,
     :scheduled => true,
     :vote => false,
-    :report => false,
-    :reg_open => true
+    :report => true,
+    :reg_open => false
   },
 'mobility-2014' => {
     :title  => 'PACEMAKER |  Mobility Conference, 2014',
