@@ -11,9 +11,9 @@ set :planned_conf, []
 set :conferencies, {
 'Java-2014' => {
     :title  => 'PACEMAKER | Java Conference, 2014',
-    :date => '2014',
+    :date => 'December 6, 2014',
     :reg_deadline => 'November 22, 2014',
-    :location => 'Ukraine',
+    :location => 'Chernivtsi',
     :limit => 70,
     :speakers => true,
     :scheduled => true,
