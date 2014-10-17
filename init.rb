@@ -23,7 +23,7 @@ set :conferencies, {
   },
 '.Net-2014' => {
     :title  => 'PACEMAKER | .Net Conference, 2014',
-    :date => '2014',
+    :date => 'November 1, 2014',
     :reg_deadline => 'October 14, 2014',
     :location => 'Kyiv',
     :limit => 70,
