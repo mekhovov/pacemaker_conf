@@ -9,11 +9,23 @@ set :current_conf, '.Net-2014'
 set :planned_conf, []
 
 set :conferencies, {
+'Java-2014' => {
+    :title  => 'PACEMAKER | Java Conference, 2014',
+    :date => '2014',
+    :reg_deadline => 'November 22, 2014',
+    :location => 'Ukraine',
+    :limit => 70,
+    :speakers => true,
+    :scheduled => true,
+    :vote => false,
+    :report => false,
+    :reg_open => true
+  },
 '.Net-2014' => {
     :title  => 'PACEMAKER | .Net Conference, 2014',
     :date => '2014',
-    :reg_deadline => 'October 14th',
-    :location => 'Ukraine',
+    :reg_deadline => 'October 14, 2014',
+    :location => 'Kyiv',
     :limit => 70,
     :speakers => true,
     :scheduled => true,
