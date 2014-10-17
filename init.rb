@@ -5,14 +5,14 @@ require 'haml'
 
 # require 'awesome_print'   # development mode
 
-set :current_conf, '.net-2014'
+set :current_conf, '.Net-2014'
 set :planned_conf, []
 
 set :conferencies, {
-'.net-2014' => {
-    :title  => 'PACEMAKER | .net Conference, 2014',
+'.Net-2014' => {
+    :title  => 'PACEMAKER | .Net Conference, 2014',
     :date => '2014',
-    :reg_deadline => '2014',
+    :reg_deadline => 'October 14th',
     :location => 'Ukraine',
     :limit => 70,
     :speakers => true,
