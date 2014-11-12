@@ -2,4 +2,4 @@
 nbproject/
 *.mwb.bak
 mrgtmp*
-
+.DS_Store
