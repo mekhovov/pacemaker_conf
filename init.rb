@@ -5,7 +5,7 @@ require 'haml'
 
 # require 'awesome_print'   # development mode
 
-set :current_conf, '.Net-2014'
+set :current_conf, 'Java-2014'
 set :planned_conf, []
 
 set :conferencies, {
@@ -31,7 +31,7 @@ set :conferencies, {
     :scheduled => true,
     :vote => false,
     :report => false,
-    :reg_open => true
+    :reg_open => false
   },
 'WebUI-2014' => {
     :title  => 'PACEMAKER |  WebUI Conference, 2014',
