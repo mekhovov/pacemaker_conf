@@ -14,7 +14,7 @@ set :conferencies, {
     :date => 'December 6, 2014',
     :reg_deadline => 'November 22, 2014',
     :location => 'Chernivtsi',
-    :limit => 70,
+    :limit => 80,
     :speakers => true,
     :scheduled => true,
     :vote => false,
