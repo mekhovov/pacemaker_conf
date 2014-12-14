@@ -19,7 +19,7 @@ set :conferencies, {
     :scheduled => true,
     :vote => false,
     :report => false,
-    :reg_open => true
+    :reg_open => false
   },
 '.Net-2014' => {
     :title  => 'PACEMAKER | .Net Conference, 2014',
