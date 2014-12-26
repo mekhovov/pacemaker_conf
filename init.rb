@@ -18,7 +18,7 @@ set :conferencies, {
     :speakers => true,
     :scheduled => true,
     :vote => false,
-    :report => false,
+    :report => true,
     :reg_open => false
   },
 '.Net-2014' => {

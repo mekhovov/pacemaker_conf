@@ -13,7 +13,9 @@
           <% if settings.conferencies[settings.conf][:vote] %>
             <li <%= settings.page == 'vote' ? 'class="active"' : '' %> ><a href="vote"><i class="icon-th-list"></i> Vote</a></li>
           <% end %>
-          <% if settings.current_conf != settings.conf && settings.conferencies[settings.conf][:report]%>
+          <% if 
+              # settings.current_conf != settings.conf && 
+              settings.conferencies[settings.conf][:report]%>
             <li <%= settings.page == 'report' ? 'class="active"' : '' %> ><a href="report"><i class="icon-pencil"></i> Report</a></li>
           <% end %>
       </ul>
