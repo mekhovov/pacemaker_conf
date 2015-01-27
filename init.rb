@@ -5,10 +5,22 @@ require 'haml'
 
 # require 'awesome_print'   # development mode
 
-set :current_conf, 'Java-2014'
+set :current_conf, 'BigData-2015'
 set :planned_conf, []
 
 set :conferencies, {
+'BigData-2015' => {
+    :title  => 'PACEMAKER | Big Data Conference, 2015',
+    :date => 'February 28, 2015',
+    :reg_deadline => 'February 7, 2015',
+    :location => 'Lviv',
+    :limit => 80,
+    :speakers => true,
+    :scheduled => true,
+    :vote => false,
+    :report => false,
+    :reg_open => true
+  },
 'Java-2014' => {
     :title  => 'PACEMAKER | Java Conference, 2014',
     :date => 'December 6, 2014',

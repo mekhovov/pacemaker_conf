@@ -1,0 +1,94 @@
+<!-- About Section -->
+<div id="about" class="content_wrap">
+
+    <%= erb :"#{settings.conf}/_header" %>
+
+    <div class='span8 speakers'>
+
+        <h3>Speakers:</h3>
+
+<!--         <div class="span4">
+            <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-1-b.jpg"/>
+            <p>Grails. Barrel of honey...</p>
+            <p class='author'>
+                <a href="speakers#dmytro.voloshko">Dmytro Voloshko</a>
+            </p>
+        </div> -->
+
+    </div>
+
+    <div class='span4 speakers lightning_talks'>
+
+        <h3>Lightning talks:</h3>
+
+<!--         <div class="span4">
+            <img class="speaker_pht pull-left" src="/images/<%= settings.conf %>/photos/1-8-b.jpg"/>
+            <p>How mobile app can save your life, but not</p>
+            <p class='author'>
+                <a href="speakers#oleksandr.lazarchuk">Oleksandr Lazarchuk</a>
+            </p>
+        </div> -->
+
+    </div><!-- .lightning_talks -->
+
+    <div class='span12 content_bottom'> 
+
+
+        <% if settings.page != 'register' && settings.conferencies[settings.conf][:reg_open]%>
+            <div class="span4 reg_deadline">
+                <p>
+                <strong>Registration Deadline<br></strong>
+                <%= settings.conferencies[settings.conf][:reg_deadline]%> 
+                </p>
+            </div>
+
+            <div class="span4 reg_button">
+                <div class="register">
+                    <a href="http://www.123contactform.com/form-1240560/PacemakerBigData-2015-Call-For-Speakers"
+                       class="btn btn-primary"
+                       style="font-size:1.8em; margin: 0 auto"
+                       >Call for speakers</a><br><br>
+                </div>
+            
+                <div class="register">
+                    <a href="https://lms.softserveinc.com/moco/index.php/tnd/request/create/id/250"
+                       class="btn btn-primary"
+                       >Register</a>
+                    <br>
+                    <small class="">&nbsp;*only for SoftServe folks</small>
+                </div>
+
+            </div>
+
+        <% end %> 
+
+<!--         <div class="span8 info_pht_vid">
+            <p>
+                <div style="float: left;">
+                    <img class="pht_vid" src="/images/ico_photos.png"></img>
+                </div>
+                <div style="float: left; font: 1.2em Helvetica; padding: 20px 0 0 10px">
+                    Photos from 
+                    <a href="https://www.facebook.com/media/set/?set=a.637498846359744.1073741833.210154085760891&type=3">official part</a>
+                    &amp;
+                    <a href="https://www.facebook.com/media/set/?set=a.637503776359251.1073741834.210154085760891&type=3">afterparty</a>
+                </div>
+
+                Videos:
+                <a href="http://youtu.be/EM95-kwincs" target="_blank">
+                    <img class="pht_vid" src="/images/ico_videos.png"></img>
+                </a>
+            </p>
+        </div> -->
+
+        <div class="span3 info_follow_us">
+            <p>
+                Follow us:
+                <a href="https://twitter.com/sspacemaker"  target="_blank"><img src="/images/twitter.png" class="twitter"></img></a>
+                <a href="https://www.facebook.com/events/1395623494060994"  target="_blank"><img src="/images/facebook.png" class="twitter"></img></a>
+                <br><br>
+            </p>
+        </div>
+
+    </div>
+</div>
