@@ -1,27 +1,18 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.3.7)
-    buftok (0.2.0)
     daemons (1.1.8)
-    equalizer (0.0.11)
     eventmachine (0.12.10)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     haml (4.0.6)
       tilt
-    http (0.6.3)
-      http_parser.rb (~> 0.6.0)
-    http_parser.rb (0.6.0)
-    json (1.8.2)
-    memoizable (0.4.2)
-      thread_safe (~> 0.3, >= 0.3.1)
+    multi_json (1.11.0)
     multipart-post (2.0.0)
-    naught (1.0.0)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
-    simple_oauth (0.3.1)
+    simple_oauth (0.1.9)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -30,19 +21,11 @@ GEM
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
-    thread_safe (0.3.5)
     tilt (1.4.1)
-    twitter (5.14.0)
-      addressable (~> 2.3)
-      buftok (~> 0.2.0)
-      equalizer (~> 0.0.9)
-      faraday (~> 0.9.0)
-      http (~> 0.6.0)
-      http_parser.rb (~> 0.6.0)
-      json (~> 1.8)
-      memoizable (~> 0.4.0)
-      naught (~> 1.0)
-      simple_oauth (~> 0.3.0)
+    twitter (4.0.0)
+      faraday (~> 0.8)
+      multi_json (~> 1.3)
+      simple_oauth (~> 0.1.6)
 
 PLATFORMS
   ruby
@@ -51,4 +34,4 @@ DEPENDENCIES
   haml
   sinatra
   thin
-  twitter
+  twitter (= 4.0.0)
